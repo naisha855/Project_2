@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'SejonghospitalBold';
+    background-color: #454545
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}

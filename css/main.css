@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* 슬라이더 */
+
+#slider{
+    width: 100%;
+    height: 785px;
+    background-color: darkgray;
+display: flex; justify-content:center;
+align-content:center; align-items:flex-start;
+
+}
+
+.slider_title{width: 766px; height: 500px; background-color: #454545;
+margin: 110px;
+}
+
+/* reservation page */
+
+#reservation_page{
+    width: 100%;
+    height: 296px;
+    background-color: #F2D6A5;
+    opacity:70%;
+    margin-top: -172px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.slider_sub{width:913px; height:84px; background-color:blue;
+    margin-top:180px; margin-left:40px;
+
+}
+
+.slider_reservation{
+width: 666px;
+height: 296px;
+background-color: green;
+}
+
+/* section_1 */
+
+.section_1{
+width: 100%; height:671px; background-color:black; display: flex;
+}
+
+.section1_image_page{width: 50%; height:671px; background-color:beige;}
+
+.section1_text_page{width: 50%; height: 671px; background-color: #ff8383;
+display:flex;align-content:center; align-items: center;
+}
+
+.section1_text_page_title{width:759px; height:367px; background-color:#454545;
+margin-left: -177px;}
+
+/* section_2 */
+
+.section_2{
+    width: 100%; height: 524px; background-color:#f2D6A4;
+    display: flex; justify-content: center; align-content:center;
+    align-items:center;
+}
+
+.section2_main_group{width:1140px ;height: 314px; background-color: white;
+}
+
+/* section_3 */
+
+.section_3{
+    width: 100%; height: 508px; margin: 0 auto; background-color: white;
+    display:flex; justify-content:center;
+}
+.section3_main_page{
+width:1140px; height:508px;
+background-color:aqua;
+display:flex; align-content:center;
+align-items:center;
+}
+.section3_text_page{width:570px; height:310px; background-color: brown;}
+
+.section3_capture_page{width:570px; height:508px; background-color:#ff8383;}
+/* section_4 */
+
+.section_4{
+    width: 100%; height:389px; background-color:#adadad;
+    ;display: flex;justify-content:center; align-content:center;
+    align-items:center; 
+}
+
+.section4_main{width:950px; height:180px;
+background-color: purple; 
+}
+
+/* section_5 */
+
+.section_5{
+width:100%; height:1200px; background-color:white;
+display: flex; flex-direction: column; align-items:center;
+}
+
+.section5_title{width:1140px; height:195px; background-color:blue;}
+
+.person_page{width: 1140px; height:715px; background-color:#ff8383;
+    display:flex; flex-wrap:wrap; justify-content:space-around;
+    align-content:space-around;align-items:center;
+}
+
+.person_list{width:200px; height:321px; background-color:aquamarine}
+
+.person_slide_page{width: 100%; height:300px; background: gray;
+display: flex; flex-direction:row;
+}
+
+.person_slide_picture{width:476px; height:300px; background-color:magenta;}
+
+/* section_6 */
+
+.section_6{width: 100%; height: 626px; background-color:skyblue;
+display:flex; align-content:flex-end; flex-direction:column;
+justify-content:center; align-items:center;
+}
+
+.section6_title_page{width: 665px; height:179px; background-color:white;}
+
+
+
+
+.section6_community{width: 100%; height: 389px; background-color:#454545;}
+
+/* section_7 */
+
+.section_7{width: 100%; height: 770px; background-color: brown;
+display:flex; justify-content:center;
+}
+
+.section7_main_page{width:1140px; height:708px; background-color:white;
+    display:flex; align-content:space-between; flex-direction:column;
+    justify-content:center; fuck you
+}
+
+.section7_title{width:635px; height:116px; background-color:beige ;}
+
+.section7_page{width:1140px; height:494px;background-color: burlywood;}
+
+
+/* section_8 */
+
+.section_8{width: 100%; height: 605px; background-color:azure;
+display: flex; align-content:center; align-items:center;
+}
+
+.section8_image_page{width: 50%; height:540px; background-color: green ;}
+
+.section8_title_page{width: 50%; height:540px; background-color: black;
+display:flex; justify-content:center; align-content: center; align-items:center;
+}
+
+.section8_title_list{width:658px; height:256px; background-color:white;}
+
+
