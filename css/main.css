@@ -36,8 +36,21 @@ margin: 110px;
 width: 666px;
 height: 296px;
 background-color: green;
+display:flex; justify-content:center; 
+align-content:center; align-items:center;
 }
 
+.slider_reservation_layout{width:618px; height:239px;
+background-color:tomato;
+}
+.slider_reservation_layout_title{width:618px; height:22px; background-color:white;
+}
+.slider_reservation_layout_location1{width:618px; height:74px;
+background-color:#F2D6A5 }
+.slider_reservation_layout_location2{width:618px; height:74px;
+background-color:#454545 }
+.slider_reservation_layout_location3{width:618px; height:69px;
+background-color:#F2D6A5 }
 /* section_1 */
 
 .section_1{
@@ -134,8 +147,8 @@ display:flex; justify-content:center;
 }
 
 .section7_main_page{width:1140px; height:708px; background-color:white;
-    display:flex; align-content:space-between; flex-direction:column;
-    justify-content:center; fuck you
+display:flex; flex-direction:column; align-items:center;
+
 }
 
 .section7_title{width:635px; height:116px; background-color:beige ;}
