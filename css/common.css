@@ -36,5 +36,37 @@ footer{width:100%; height: 711px; background-color:orange;
 }
 
 .footer_main{ width:1140px; height:487px; background-color:tomato;
-
+    display:flex; flex-direction:column; justify-content:space-between;
 }
+.footer_page{width:1140px; height:394px; background-color:lime;
+display: flex;}
+
+.footer_page_about_us{width:285px; height:394px; background-color:goldenrod;
+display:flex; flex-direction:column; justify-content: flex-start;
+flex-wrap:wrap;
+}
+.footer_page_about_us_title{width:225px; height:206px; background-color:black;}
+.footer_page_about_us_sns{width:189px; height:60px; background-color:gray;
+margin-top: 31px;
+}
+
+.footer_page_resent_blog{width:380px; height:394px; background-color:burlywood;
+display:flex; justify-content:center;
+}
+.footer_page_resent_blog_main{width:350px; height:250px; background-color:white;}
+
+.footer_page_service{width:190px; height:394px; background-color:gold;
+    display:flex; justify-content:center;}
+.footer_page_service_main{width:136px; height:242px; background-color:white;}
+
+.footer_page_have_a_questions{width:285px; height:394px; background-color:sandybrown;
+}
+.footer_page_have_a_questions_main{width:285px; height:346px; background-color:white;}
+.footer_page_have_a_questions_sub{width:255px; height:242px; background-color:green;}
+.footer_col{width:1140px; height:45px; background-color:black;}
+
+내일 하기전에 숙지! 슬라이더 페이지 ㅈ됨!
+푸터 마저 하기! 
+푸터 어바웃 페이지 조정!
+섹션3 페이지 사진 페이지!
+섹션 6페이지!
