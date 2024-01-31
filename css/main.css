@@ -10,9 +10,14 @@
     align-content: center;
     align-items: flex-start;
     position: relative;
-    background-image: url(/img/cook-2364221_1280.jpg);
     background-position: center;
     background-size: cover;
+}
+
+#slider img{
+    width:100%;
+    height:100%;
+    position:relative;
 }
 
 .slider_title {
@@ -22,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+position: absolute;
 }
 
 .slider_pagenation {
@@ -156,6 +161,7 @@ border:none;
 .slide_sub_title {
     width: 264px;
     height: 22px;
+    color: white;
 }
 
 .slide_sub_text {
@@ -238,9 +244,14 @@ border:none;
 .section1_image_page {
     width: 50%;
     height: 671px;
-    background-image: url(/img/apples-634572_1280.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.section1_image_page img{
+    width:100%;
+    height:100%;
+
 }
 
 .section1_text_page {
@@ -315,7 +326,7 @@ background-color: green}
 .section2_main_group_icon {
     width: 100px;
     height: 100px;
-    background-color: aqua;
+border: 3px solid white;
 }
 
 .section2_main_group_text {
@@ -367,21 +378,34 @@ background-color: green}
 .section3_text_page_title {
     width: 507px;
     height: 56px;
-    background-color: orange;
+font-size: 42px;
+color:white;
 }
 
 .section3_text_page_text {
     width: 507px;
     height: 108px;
-    background-color: yellow;
     margin-top: 13px;
+    text-align:end;
+    font-size: 20px;
+    color:#858585;
+    line-height: 30px;
 }
 
 .section3_text_page_button {
     width: 507px;
     height: 53px;
-    background-color: green;
     margin-top: 15px;
+    display:flex;
+    justify-content:end;
+}
+
+.section3_text_page_button button{
+    width: 150px;
+    border:2px solid #F2D6A5;
+    font-size: 16px;
+color: #F2D6A5;
+
 }
 
 .section3_capture_page {
@@ -427,6 +451,10 @@ background-color: green}
     height: 208px;
     background-color: white;
 }
+.section3_capture_page_layout_caption img{
+    width:100%;
+    height:100%;
+}
 
 /* section_4 */
 
@@ -470,16 +498,18 @@ background-color: green}
 }
 
 .section4_main_page_number {
-    width: 47px;
+    width: 200px;
     height: 43px;
-    background-color: #f2D6A5;
     margin-top: 21px;
+    text-align:center;
+    font-size:34px;
 }
 
 .section4_main_page_text {
     width: 116px;
     height: 25px;
-    background-color: #f2D6A6;
+    text-align:center;
+font-size: 19px;
 }
 
 /* section_5 */
@@ -506,15 +536,17 @@ background-color: green}
 .section5_title_title {
     width: 1140px;
     height: 56px;
-    background-color: orange;
     margin-top: 13px;
+    font-size:38px;
+    color: white;
 }
 
 .section5_title_text {
     width: 1140px;
     height: 54px;
-    background-color: yellow;
     margin-top: 15px;
+    font-size:20px;
+    color: #858585;
 }
 
 .person_page {
@@ -597,22 +629,24 @@ background-color: green}
 .section6_title_page_headline {
     width: 636px;
     height: 50px;
-    background-color: black;
+    background-color: red;
     margin-top: 6px;
 }
 
 .section6_title_page_title {
     width: 636px;
     height: 56px;
-    background-color: gray;
     margin-top: 7px;
+    font-size:38px;
+    text-align:center;
 }
 
 .section6_title_page_text {
     width: 636px;
     height: 54px;
-    background-color: green;
     margin-top: 4px;
+    font-size:20px;
+    text-align:center;
 }
 
 .section6_community {
