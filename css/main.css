@@ -18,7 +18,6 @@
 .slider_title {
     width: 766px;
     height: 500px;
-    background-color: #454545;
     margin: 110px;
     display: flex;
     flex-direction: column;
@@ -29,7 +28,6 @@
 .slider_pagenation {
     width: 176px;
     height: 40px;
-    background-color: skyblue;
     position: absolute;
     bottom: 55px;
     display: flex;
@@ -47,7 +45,6 @@
 .slider_title_main {
     width: 728px;
     height: 263px;
-    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,60 +54,82 @@
 .slider_title_first {
     width: 95px;
     height: 38px;
-    background-color: red
+    background-color: red;
+    
 }
 
 .slider_title_headline {
     width: 728px;
     height: 120px;
-    background-color: orange;
     margin-top: 16px;
+    font-size: 64px;
+    text-align: center;
+    color:white;
+    text-justify:auto;
+
+    
 }
 
 .slider_title_text {
     width: 728px;
     height: 53px;
-    background-color: yellow;
     margin-top: 38px;
+    font-size: 18px;
+    text-align: center;
+    color:white;
 }
 
 .slider_title_button {
     width: 255px;
     height: 54px;
-    background-color: blueviolet;
     margin-top: 36px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.slider_title_button_order_now {
-    width: 118px;
+.slider_title_button button{
+        width: 118px;
     height: 53px;
-    background-color: blue
+    background-color: #F2D6A5;
+color:#454545;
+border:none;
 }
 
-.slider_title_button_view_menu {
-    width: 118px;
-    height: 53px;
-    background-color: purple
-}
-
+    .slider_title_button button:hover{
+        background-color: #F2D6A5;
+        color:#454545;
+        border:none;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .slider_title_button button:nth-last-child(1){
+        background-color: #454545;
+        color:white;
+        border:1px solid white;
+    }
+    .slider_title_button button:nth-last-child(1):hover{
+        background-color: #F2D6A5;
+        color:#454545;
+        border:none;
+        cursor: pointer;
+        transition: 0.5s;
+        
+    }
 /* reservation page */
 
 #reservation_page {
     width: 100%;
     height: 100px;
-    opacity: 70%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    position:relative;
 }
 
 .slider_sub {
     width: 913px;
     height: 84px;
-    background-color: blue;
     margin-left: 40px;
     display: flex;
     align-items: center;
@@ -123,7 +142,6 @@
 .slide_sub_location {
     width: 264px;
     height: 84px;
-    background-color: yellowgreen;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -138,13 +156,11 @@
 .slide_sub_title {
     width: 264px;
     height: 22px;
-    background-color: magenta
 }
 
 .slide_sub_text {
     width: 264px;
     height: 54px;
-    background-color: #ff8383
 }
 
 .slider_reservation {
@@ -160,13 +176,11 @@
 .slider_reservation_layout {
     width: 618px;
     height: 239px;
-    background-color: tomato;
 }
 
 .slider_reservation_layout_title {
     width: 618px;
     height: 22px;
-    background-color: white;
 }
 
 .slider_reservation_layout_location1 {
@@ -181,13 +195,12 @@
 .slider_reservation_layout_location1_item {
     width: 297px;
     height: 58px;
-    background-color: greenyellow;
+
 }
 
 .slider_reservation_layout_location2 {
     width: 618px;
     height: 74px;
-    background-color: #454545;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -196,7 +209,7 @@
 .slider_reservation_layout_location2_item {
     width: 190px;
     height: 58px;
-    background-color: greenyellow;
+
 }
 
 .slider_reservation_layout_location3 {
@@ -219,7 +232,6 @@
 .section_1 {
     width: 100%;
     height: 671px;
-    background-color: black;
     display: flex;
 }
 
@@ -249,12 +261,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 90%;
 }
 
 .section1_text_page_title_title {
     width: 679px;
     height: 85px;
-    background-color: peru;
+    font-size: 40px;
+    color:white;
+}
+
+.section1_text_page_title_title_title{width:679px; height:50px;
+background-color: green}
+
+.section1_text_page_title_title_headline{width:679px; height:56px;
 }
 
 .section1_text_page_title_text {
@@ -279,14 +299,12 @@
 .section2_main_group {
     width: 1140px;
     height: 314px;
-    background-color: white;
     display: flex;
 }
 
 .section2_main_group_location {
     width: 380px;
     height: 314px;
-    background-color: orange;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -303,9 +321,16 @@
 .section2_main_group_text {
     width: 350px;
     height: 156px;
-    background-color: azure;
     margin-top: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
+.section2_main_group_text_name{width:350px; height:35px;
+ text-align:center;}
+.section2_main_group_text_text{width:350px; height:81px;
+ text-align:center;}
+
 
 /* section_3 */
 
@@ -313,7 +338,6 @@
     width: 100%;
     height: 508px;
     margin: 0 auto;
-    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -321,7 +345,6 @@
 .section3_main_page {
     width: 1140px;
     height: 508px;
-    background-color: aqua;
     display: flex;
     align-content: center;
     align-items: center;
@@ -330,7 +353,6 @@
 .section3_text_page {
     width: 570px;
     height: 310px;
-    background-color: brown;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +387,6 @@
 .section3_capture_page {
     width: 570px;
     height: 508px;
-    background-color: #ff8383;
     display: flex;
     flex-wrap: wrap;
 }
@@ -373,7 +394,6 @@
 .section3_capture_page_layout1 {
     width: 285px;
     height: 254px;
-    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -381,7 +401,6 @@
 .section3_capture_page_layout2 {
     width: 285px;
     height: 254px;
-    background-color: orange;
     display: flex;
     align-items: flex-end;
 }
@@ -389,7 +408,6 @@
 .section3_capture_page_layout3 {
     width: 285px;
     height: 254px;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -398,7 +416,6 @@
 .section3_capture_page_layout4 {
     width: 285px;
     height: 254px;
-    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -433,7 +450,6 @@
 .section4_main_layout {
     width: 237.5px;
     height: 180px;
-    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -442,7 +458,6 @@
 .section4_main_page {
     width: 116px;
     height: 180px;
-    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -472,7 +487,6 @@
 .section_5 {
     width: 100%;
     height: 1200px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -481,7 +495,6 @@
 .section5_title {
     width: 1140px;
     height: 195px;
-    background-color: blue;
 }
 
 .section5_title_headline {
@@ -507,7 +520,6 @@
 .person_page {
     width: 1140px;
     height: 715px;
-    background-color: #ff8383;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -518,7 +530,6 @@
 .person_list {
     width: 200px;
     height: 321px;
-    background-color: aquamarine
 }
 
 .person_list_image {
@@ -577,7 +588,7 @@
 .section6_title_page {
     width: 665px;
     height: 179px;
-    background-color: white;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -666,7 +677,6 @@
 .section_7 {
     width: 100%;
     height: 770px;
-    background-color: brown;
     display: flex;
     justify-content: center;
 }
@@ -674,7 +684,6 @@
 .section7_main_page {
     width: 1140px;
     height: 708px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -684,7 +693,6 @@
 .section7_title {
     width: 635px;
     height: 116px;
-    background-color: beige;
 }
 
 .section7_title_title {
@@ -703,14 +711,12 @@
 .section7_page {
     width: 1140px;
     height: 494px;
-    background-color: burlywood;
     display: flex;
 }
 
 .section7_page_location {
     width: 380px;
     height: 494px;
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -726,7 +732,6 @@
 .section7_page_location_info {
     width: 350px;
     height: 194px;
-    background-color: black;
     display: flex;
     flex-direction: column;
 }

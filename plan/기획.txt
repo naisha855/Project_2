@@ -20,6 +20,9 @@ section
 7 블로그 페이지
 8 지도와 예약 페이지
 
+Home, About us, Service, Info, Comunity, Contact
+
+
 
 - 전자제품 
 
