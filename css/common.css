@@ -2,8 +2,10 @@
 
 
 /* 폰트 페이지 */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
-@font-face{
+
+@font-face {
     font-family: 'SejonghospitalBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
     font-weight: 700;
@@ -11,128 +13,351 @@
 }
 
 @font-face {
-    font-family: 'OG_Renaissance_Secret-Rg';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2') format('woff2');
-    font-weight: normal;
+    font-family: 'Sejong hospital Light';
+    src: url('../fonts/Sejong\ hospital\ Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
-body{
+
+
+body {
     font-family: 'SejonghospitalBold';
     background-color: #454545;
 }
 
+pre{font-family: 'Sejong hospital Light';
+}
+
 /* 네비게이션 */
 
-header{
+header {
     width: 100%;
     height: 91px;
-    border-bottom:1px solid white;
-    position:absolute;
+    border-bottom: 1px solid white;
+    position: absolute;
+    z-index:10;
 }
 
-.container{
-    width: 1140px; height: 91px;
-    margin: 0 auto; display: flex; justify-content:space-between;
-    align-items:center;
+.container {
+    width: 1140px;
+    height: 91px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav_logo{width: 88px; height: 44px; background-color:#F2D6A5;
-     }
-
-nav{width: 728px; height: 74px;}
-
-    nav ul{display: flex; flex-direction:row; justify-content:space-around;}
-
-nav ul li{box-sizing: border-box;
-    display:flex; 
-align-items:center;
-color:white;
+.nav_logo {
+    width: 88px;
+    height: 44px;
+    background-color: #F2D6A5;
 }
 
-.nav_icon{width:62px; height:75px; 
-display:flex; justify-content: center; align-content:center; align-items:center;}
+nav {
+    width: 728px;
+    height: 74px;
+}
 
-.nav_icon img{width:50px; height:50px;}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav ul li:hover {
+    color: #F2D6A5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav_icon {
+    width: 62px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.nav_icon img {
+    width: 50px;
+    height: 50px;
+}
 
 
 /* footer */
 
-footer{width:100%; height: 711px; 
-    display:flex; justify-content:center; align-content:center; align-items:center;
+footer {
+    width: 100%;
+    height: 711px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.footer_main{ width:1140px; height:487px;
-    display:flex; flex-direction:column; justify-content:space-between;
+.footer_main {
+    width: 1140px;
+    height: 487px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.footer_page{width:1140px; height:394px;
-display: flex;}
 
-.footer_page_about_us{width:285px; height:394px;
-display:flex; flex-direction:column; justify-content: flex-start;
-flex-wrap:wrap;
+.footer_page {
+    width: 1140px;
+    height: 394px;
+    display: flex;
 }
-.footer_page_about_us_title{width:225px; height:206px;}
 
-.footer_page_about_us_title_name{width:225px; height:22px; 
-    color:white;}
-.footer_page_about_us_title_text{width:225px; height:143px;
-margin-top:23px; color:#ffffffb3;}
-
-.footer_page_about_us_sns{width:189px; height:60px;
-margin-top: 31px; display:flex; justify-content:space-around; align-content:center;
-align-items:center;
+.footer_page_about_us {
+    width: 285px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
-.footer_page_about_us_sns_item{width:50px; height:50px; border-radius: 100%;}
 
-.footer_page_about_us_sns_item img{width:100%; height:100%;}
-
-.footer_page_resent_blog{width:380px; height:394px; 
-display:flex; justify-content:center;
+.footer_page_about_us_title {
+    width: 225px;
+    height: 206px;
 }
-.footer_page_resent_blog_main{width:350px; height:250px;}
-.footer_page_resent_blog_main_name{width:350px; height:22px; color:white;}
-.footer_page_resent_blog_main_location{width:350px; height:82px;
-margin-top:25px; display:flex; justify-content:space-between;}
-.footer_page_resent_blog_main_location_image{width:79px; height:82px;}
-.footer_page_resent_blog_main_location_image img{width:100%; height:100%;}
-.footer_page_resent_blog_main_location_info{width:247px; height:82px;
-display:flex; justify-content:space-between; flex-direction:column;}
-.footer_page_resent_blog_main_location_info_title{width:247px; height:45px; color:white;}
-.footer_page_resent_blog_main_location_info_cal{width:247px; height:27px;
-display:flex; flex-direction:row; align-content:center; align-items:center;}
-.footer_page_resent_blog_main_location_info_cal_day{width:86px; height:22px; font-size:10px;
+
+.footer_page_about_us_title_name {
+    width: 225px;
+    height: 22px;
+    color: white;
+}
+
+.footer_page_about_us_title_text {
+    width: 225px;
+    height: 143px;
+    margin-top: 23px;
     color: #ffffffb3;
-margin-right:12px;}
-.footer_page_resent_blog_main_location_info_cal_admin{width:54px; height:22px; font-size:10px;
+    font-family:  'Sejong hospital Light';;
+}
+
+.footer_page_about_us_sns {
+    width: 189px;
+    height: 60px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.footer_page_about_us_sns_item {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.footer_page_about_us_sns_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_page_resent_blog {
+    width: 380px;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_page_resent_blog_main {
+    width: 350px;
+    height: 250px;
+}
+
+.footer_page_resent_blog_main_name {
+    width: 350px;
+    height: 22px;
+    color: white;
+}
+
+.footer_page_resent_blog_main_location {
+    width: 350px;
+    height: 82px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_page_resent_blog_main_location_image {
+    width: 79px;
+    height: 82px;
+}
+
+.footer_page_resent_blog_main_location_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_page_resent_blog_main_location_info {
+    width: 247px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_page_resent_blog_main_location_info_title {
+    width: 247px;
+    height: 45px;
+    color: white;
+    font-family:  'Sejong hospital Light';;
+}
+
+.footer_page_resent_blog_main_location_info_cal {
+    width: 247px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.footer_page_resent_blog_main_location_info_cal_day {
+    width: 86px;
+    height: 22px;
+    font-size: 10px;
     color: #ffffffb3;
-    margin-right:11px;}
-
-.footer_page_service{width:190px; height:394px; 
-    display:flex; justify-content:center;}
-.footer_page_service_main{width:136px; height:242px; color:white;}
-.footer_page_service_main_name{width:136px; height:22px;
-margin-bottom:21px;}
-.footer_page_service_main_list{width:136px; height:45px; color:#ffffffb3;
-margin-bottom:4px;}
-
-.footer_page_have_a_questions{width:285px; height:394px; 
+    margin-right: 12px;
 }
-.footer_page_have_a_questions_main{width:285px; height:346px;
-display: flex; justify-content:center;}
-.footer_page_have_a_questions_sub{width:255px; height:242px; 
-display:flex; flex-direction:column;justify-content:space-between;}
-.footer_page_have_a_questions_sub_name{width:255px; height:22px; color:white;}
-.footer_page_have_a_questions_sub_info{width:255px; height:180px;
+
+.footer_page_resent_blog_main_location_info_cal_admin {
+    width: 54px;
+    height: 22px;
+    font-size: 10px;
+    color: #ffffffb3;
+    margin-right: 11px;
 }
-.footer_page_have_a_questions_sub_info_list1{width:255px; height:72px;;
-    margin-bottom:12px; display:flex;}
-    .footer_page_have_a_questions_sub_info_list1_image{width:40px; height:72px; background-color:antiquewhite}
-    .footer_page_have_a_questions_sub_info_list1_text{width:215px; height:72px; color:#ffffffb3;
-    margin-left:8px;}
-.footer_page_have_a_questions_sub_info_list2{width:255px; height:39px;;
-margin-bottom:12px; display:flex;}
-.footer_page_have_a_questions_sub_info_list2_image{width:40px; height:39px; background-color:orchid}
-.footer_page_have_a_questions_sub_info_list2_text{width:215px; height:39px; color:white;
-margin-left:8px;}
-.footer_col{width:1140px; height:45px; background-color:black;}
+
+.footer_page_service {
+    width: 190px;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_page_service_main {
+    width: 136px;
+    height: 242px;
+    color: white;
+}
+
+.footer_page_service_main_name {
+    width: 136px;
+    height: 22px;
+    margin-bottom: 21px;
+}
+
+.footer_page_service_main_list {
+    width: 136px;
+    height: 45px;
+    color: #ffffffb3;
+    margin-bottom: 4px;
+}
+
+.footer_page_have_a_questions {
+    width: 285px;
+    height: 394px;
+}
+
+.footer_page_have_a_questions_main {
+    width: 285px;
+    height: 346px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_page_have_a_questions_sub {
+    width: 255px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_page_have_a_questions_sub_name {
+    width: 255px;
+    height: 22px;
+    color: white;
+}
+
+.footer_page_have_a_questions_sub_info {
+    width: 255px;
+    height: 180px;
+}
+
+.footer_page_have_a_questions_sub_info_list1 {
+    width: 255px;
+    height: 72px;
+    ;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.footer_page_have_a_questions_sub_info_list1_image {
+    width: 20px;
+    height: 30px;
+}
+
+.footer_page_have_a_questions_sub_info_list1_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_page_have_a_questions_sub_info_list1_text {
+    width: 215px;
+    height: 72px;
+    color: #ffffffb3;
+    margin-left: 8px;
+    font-family:  'Sejong hospital Light';
+}
+
+.footer_page_have_a_questions_sub_info_list2 {
+    width: 255px;
+    height: 39px;
+    ;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.footer_page_have_a_questions_sub_info_list2_image {
+    width: 40px;
+    height: 30px;
+}
+
+.footer_page_have_a_questions_sub_info_list2_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_page_have_a_questions_sub_info_list2_text {
+    width: 215px;
+    height: 39px;
+    color: white;
+    margin-left: 8px;
+    font-family:  'Sejong hospital Light';
+    color: #ffffffb3;
+}
+
+.footer_col {
+    width: 1140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffffb3;
+}
