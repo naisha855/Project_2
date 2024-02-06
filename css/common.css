@@ -26,9 +26,10 @@ body {
     background-color: #454545;
 }
 
-pre{font-family: 'Sejong hospital Light';
-}
 
+    pre{font-family: 'Sejong hospital Light';
+    }
+    
 /* 네비게이션 */
 
 header {
@@ -361,3 +362,4 @@ footer {
     justify-content: center;
     color: #ffffffb3;
 }
+    
