@@ -2,1034 +2,1062 @@
 
 /* 슬라이더 */
 
-@media screen and (max-width:599px){
- 
-#slider {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
+@media screen and (max-width:599px) {
 
-#slider img{
-    width:100%;
-    height: auto;
-    opacity:60%;
-}
+    #slider {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
 
-.slider_title {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-position: absolute;
-}
+    #slider img {
+        width: 100%;
+        height: auto;
+        opacity: 60%;
+    }
 
-.slider_pagenation {
-    width: 140px;
-    height: 30px;
-    position: absolute;
-    bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
+    .slider_title {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
 
-.slider_pagenation_button{
-display: none;
-}
+    .slider_pagenation {
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.slider_title_main {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .slider_pagenation_button {
+        display: none;
+    }
 
-.slider_title_first {
-    width: 230px;
-    height: 38px;
-    font-family: 'Tangerine';
-    font-size: 70px;
-    color:#f2D6A4;
-    font-weight: bold;
-}
+    .slider_title_main {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.slider_title_headline {
-    width: 80%;
-    height: auto;
-    margin-top: 16px;
-    font-size: 32px;
-    text-align: center;
-    color:white;
+    .slider_title_first {
+        width: 230px;
+        height: 38px;
+        font-family: 'Tangerine';
+        font-size: 70px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
 
-    
-}
+    .slider_title_headline {
+        width: 80%;
+        height: auto;
+        margin-top: 16px;
+        font-size: 32px;
+        text-align: center;
+        color: white;
 
-.slider_title_text {
-    width: 80%;
-    height: auto;
-    font-size: 16px;
-    text-align: center;
-    color:white;
-    font-family: 'Sejong hospital Light';
-margin-top: 3%;
-}
 
-.slider_title_button {
-    width: 255px;
-    height: 54px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-}
+    }
 
-.slider_title_button button{
+    .slider_title_text {
+        width: 80%;
+        height: auto;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+        font-family: 'Sejong hospital Light';
+        margin-top: 3%;
+    }
+
+    .slider_title_button {
+        width: 255px;
+        height: 54px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .slider_title_button button {
         width: 45%;
-    height: auto;
-    background-color: #F2D6A5;
-color:#454545;
-border:none;
-}
+        height: auto;
+        background-color: #F2D6A5;
+        color: #454545;
+        border: none;
+    }
 
-    .slider_title_button button:hover{
+    .slider_title_button button:hover {
         background-color: transparent;
-        color:#F2D6A5;
-        border:none;
+        color: #F2D6A5;
+        border: none;
         cursor: pointer;
         transition: 0.5s;
         border: 1px solid #F2D6A5;
     }
-    .slider_title_button button:nth-last-child(1){
+
+    .slider_title_button button:nth-last-child(1) {
         background-color: transparent;
-        color:white;
-        border:1px solid white;
+        color: white;
+        border: 1px solid white;
     }
-    .slider_title_button button:nth-last-child(1):hover{
+
+    .slider_title_button button:nth-last-child(1):hover {
         background-color: #F2D6A5;
-        color:#454545;
-        border:none;
+        color: #454545;
+        border: none;
         cursor: pointer;
         transition: 0.5s;
-        
-    }
-/* reservation page */
-
-#reservation_page {
-    width: 100%;
-    height: auto;
-}
-
-.slider_sub {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.slide_sub_location {
-    width: 33%;
-    height: 84px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.slider_sub_icon {
-display: none;
-}
-
-.slider_sub_icon img{
-width:40px;
-height:30px;
-
-}
-
-
-.slide_sub_title {
-    width: 90%;
-    height: auto;
-    color: white;
-font-size: 13px;
-}
-
-.slide_sub_text {
-    width: 90%;
-    height: 54px;
-    color:#ffffffb3;
-font-size:10px;
-font-family: 'Sejong hospital Light';
-}
-
-.slider_reservation {
-    width: 100%;
-    height: auto;
-    background-color: #F2D6A5;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.slider_reservation_layout {
-    width: 100%;
-    height: auto;
-}
-
-.slider_reservation_layout_title {
-    width: 90%;
-    height: auto;
-}
-
-.slider_reservation_layout_location1 {
-    width: 100%;
-    height: 74px;
-    background-color: #F2D6A5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location1_item {
-    width: 50%;
-    height: 58px;
-
-}
-
-.slider_reservation_layout_location2 {
-    width: 100%;
-    height: 74px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location2_item {
-    width: 33.3%;
-    height: 58px;
-
-}
-
-.slider_reservation_layout_location3 {
-    width: 100%;
-    height: auto;
-    background-color: #F2D6A5;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location3_item {
-    width: 100%;
-    height: 60px;
-}
-
-.slider_reservation_layout_location3_item button{
-    width: 100%;
-    height: 53px;
-    background-color:white;
-    border:none;
-    letter-spacing: 2px;
-}
-
-.slider_reservation_layout_location3_item button:hover{
-    transition:0.5s;
-    background-color:black;
-    color:white;
-    cursor:pointer;
-}
-
-/* section_1 */
-
-.section_1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction:column;
-}
-
-.section1_image_page {
-    width: 100%;
-    height: auto;
-}
-
-.section1_image_page img{
-    width:100%;
-    height:100%;
-
-}
-
-.section1_text_page {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.section1_text_page_title {
-    width: 100%;
-    height: auto;
-    background-color: #454545;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    opacity: 90%;
-}
-
-.section1_text_page_title_title {
-    width: 90%;
-    height: auto;
-    font-size: 28px;
-    color:white;
-}
-
-.section1_text_page_title_title_title{
-    width:100%; height:auto;
-    font-family: 'Tangerine';
-    font-size: 50px;
-    color:#f2D6A4;
-    font-weight: bold;}
-
-.section1_text_page_title_title_headline{
-    width:100%; height:auto;
-    margin-top:-6px;
-}
-
-.section1_text_page_title_text {
-    width: 100%;
-    height: auto;
-    margin-top: 37px;
-    color:#ffffffb3;
-    font-size:12px;
-}
-
-/* section_2 */
-
-.section_2 {
-    width: 100%;
-    height: auto;
-    background-color: #f2D6A4;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.section2_main_group {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.section2_main_group_location {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-
-.section2_main_group_icon {
-    width: 100px;
-    height: 100px;
-border: 3px solid #454545;
-display:flex; justify-content:center; align-content:center;
-align-items:center;
-margin: 0 auto;
-}
-
-.section2_main_group_icon img{
-    width:80%;
-    height:80%;
-}
-
-.section2_main_group_text {
-    width: 100%;
-    height: auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-color:#454545;
-margin-top: 20px;
-}
-.section2_main_group_text_name{width:100%; height:auto;
- text-align:center;
-font-size:20px;}
-.section2_main_group_text_text{width:100%; height:auto;
- text-align:center;
-font-size:14px;}
-
-
-/* section_3 */
-
-.section_3 {
-    width: 100%;
-    height: auto;
-display: flex;
-flex-direction:column;
-}
-
-.section3_main_page {
-    width: 100%;
-    height: auto;
-display: flex;
-flex-direction:column;
-}
-
-.section3_text_page {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding:20px;
-    align-items:center;
-}
-
-.section3_text_page_headline {
-    width: 100%;
-    height: auto;
-    font-size: 60px;
-    color:#f2D6A4;
-    font-family: 'Tangerine';
-    text-align: center;
-}
-
-.section3_text_page_title {
-    width: 100%;
-    height: auto;
-font-size: 28px;
-color:#ffffffb3;
-margin-top:-10px;
-text-align:center;
-}
-
-.section3_text_page_text {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    font-size: 16px;
-    color:white;
-    line-height: 20px;
-    justify-content:center;
-    text-align:center;
-}
-
-.section3_text_page_button {
-    width: 100%;
-    height: 53px;
-    margin-top: 15px;
-    display:flex;
-    justify-content:center;
-}
-
-.section3_text_page_button button{
-    width: 150px;
-    border:2px solid #F2D6A5;
-    font-size: 16px;
-color: #F2D6A5;
-background-color: transparent;
-}
-
-.section3_text_page_button button:hover{
-    background-color:#F2D6A5;
-    color:#454545;
-    transition:0.5s;
-    cursor: pointer;
-}
-
-.section3_capture_page {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section3_capture_page_layout1 {
-    width: 50%;
-    height: auto;
-    display: flex;
-}
-
-.section3_capture_page_layout2 {
-    width: 50%;
-    height: auto;
-    display: flex;
-
-}
-
-.section3_capture_page_layout3 {
-    width: 50%;
-    height: auto;
-    display: flex;
-}
-
-.section3_capture_page_layout4 {
-    width: 50%;
-    height: auto;
-    display: flex;
-}
-
-.section3_capture_page_layout_caption {
-    width: 242px;
-    height: 208px;
-    background-color: white;
-}
-.section3_capture_page_layout_caption img{
-    width:100%;
-    height:100%;
-}
-
-/* section_4 */
-
-.section_4 {
-    width: 100%;
-    height: 300px;
-    margin-top: 100px;
-    position:relative;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    align-content:center;
-}
-
-.section_4::after{content: '';
-position:absolute; top:0; left:0;
-width:100%; height:100%; background-color: black;
-opacity: 0.5; z-index:-1;}
-
-.section_4> img{
-    width:100%;
-    height:300px;
-    position: absolute;
-    top:0; left: 0;
-    z-index:-2;
-}
-
-.section4_main_layout {
-    width: 33.3%;
-    height: auto;
-}
-
-.section4_main_page_icon {
-    width: 80px;
-    height: 80px;
-    border: 3px solid #f2D6A4;
-    display: flex;
-    align-content:center;
-    justify-content:center;
-    align-items:center;
-    margin: 0 auto;
-}
-
-.section4_main_page_icon img{
-    width:80%;
-    height:80%;
-}
-
-.section4_main_page_number {
-    width: 100%;
-    height: 43px;
-    margin-top: 21px;
-    text-align:center;
-    font-size:34px;
-    color:#f2D6A4
-}
-
-.section4_main_page_text {
-    width: 100%;
-    height: 25px;
-    text-align:center;
-font-size: 19px;
-color:white;
-}
-
-/* section_5 */
-
-.section_5 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px ;
-}
-
-.section5_title {
-    width: 100%;
-    height: auto;
-}
-
-.section5_title_headline {
-    width: 100%;
-    height: auto;
-    font-family: 'Tangerine';
-    font-size: 80px;
-    color:#f2D6A4;
-    font-weight: bold;
-    text-align:center;
-}
-
-.section5_title_title {
-    width: 100%;
-    height: auto;
-    font-size:32px;
-    color: white;
-text-align:center;
-margin-top: -30px;
-}
-
-.section5_title_text {
-    width: 100%;
-    height: auto;
-    font-size:16px;
-    color:#ffffffb3;
-    text-align:center;
-margin-top: 15px;
-}
-
-.person_page {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 80px;
-}
-
-
-
-.person_list {
-    width: 45%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    margin-bottom: 50px;
-}
-
-
-
-.person_list_image {
-    width: 180px;
-    height: 200px;
-    background-color:#3a3a3a;
-}
-
-.person_list_image:hover{background-color:#f2D6A4;
-    transition: 0.5s;
 
     }
 
-.person_list_image img{
-width: 100%;
-height: 100%;
-
-
-}
-
-.person_list_head {
-    width: 200px;
-    height: 42.35px;
-    margin-top: 12px;
-    font-size: 30px;
-    color:white;
-
-}
-
-.person_list_job {
-    width: 200px;
-    height: 16.61px;
-    color: #ffffffb3;
-}
-
-.person_list_link {
-    width: 200px;
-    height: 25.1px;
-    margin-top: 11px;
-    font-family: 'Sejong hospital Light';
-}
-
-.person_list_link a{
-color: #f2D6A4;
-text-decoration: none;
-}
-
-.person_list_link a:hover{
-    color: #c1ab84;
-    cursor: pointer;
-}
-
-.person_list_link a:active{
-    color: #c1ab84;
-}
-
-
-.person_slide_page {
-    width: 100%;
-    height: auto;
-    background: gray;
-    display: flex;
-    flex-direction: row;
-}
-
-.person_slide_picture {
-    width: 25%;
-    height: auto;
-}
-
-.person_slide_picture img{
-    width:100%;
-    height:100%;
-    position:relative;
-}
-
-/* section_6 */
-
-.section_6 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 110px ;
-}
-
-.section_6 img{
-    width:100%;
-    height:auto;
-}
-
-.section6_title_page {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position:relative;
-}
-
-.section6_title_page_headline {
-    width: 100%;
-    height: auto;
-    font-family: 'Tangerine';
-    font-size: 60px;
-    color:#f2D6A4;
-    font-weight: bold;
-    display: flex;
-    justify-content:center;
-    margin-top: 60px;
-}
-
-
-.section6_title_page_title {
-    width: 100%;
-    height: auto;
-    font-size:30px;
-    text-align:center;
-    color:white;
-    margin-top: -20px;
-}
-
-.section6_title_page_text {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    font-size:16px;
-    text-align:center;
-    color:#ffffffb3;
-}
-
-.section6_community {
-    width: 100%;
-    height: auto;
-    display: flex;
-flex-direction: column;
-}
-
-.section6_community_list {
-    width: 100%;
-    height: auto;
-    background-color: #f2D6A4;
-    display: flex;
-    align-items: flex-end;
-}
-
-.section6_community_list:nth-child(even){
-    background-color:#c1ab84
-}
-
-.section6_community_list:nth-child(1){
-    height: 50%;
-}
-
-.section6_community_list:nth-child(2){
-    height: 80%;
-}
-.section6_community_list:nth-child(3){
-    height: 60%;
-}
-.section6_community_list:nth-child(4){
-    height: 70%;
-}
-.section6_community_list:nth-child(5){
-    height: 80%;
-}
-
-.section6_community_list_user {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.section6_community_list_user_text {
-    width: 100%;
-    height: 100px;
-    color:#3a3a3a;
-    font-family:  'Sejong hospital Light';
-    font-size: 15px;
-}
-
-.section6_community_list_user_sub {
-    width: 100%;
-    height: auto;
-    margin-top: 22px;
-    display: flex;
-    align-items: center;
-}
-
-.section6_community_list_user_sub_cap {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 100%;
-    margin-left: 10px;
-}
-
-.section6_community_list_user_sub_cap img{
-width:40px; height:40px;
-border-radius: 100%;
-}
-
-.section6_community_list_user_sub_text {
-    width: 110px;
-    height: 48px;
-    margin-left: 10px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-.section6_community_list_user_sub_text_name{width:160px; height:22px;
-font-size:16px;
-color: white;
-}
-.section6_community_list_user_sub_text_name_sub{width:110px; height:22px;
- font-size:14px; color:#ffffffb3}
-
-
-/* section_7 */
-
-
-.section_7 {
-    width: 100%;
-    height: 770px;
-    display: flex;
-    justify-content: center;
-    position:relative;
-    background-color:#454545;
-    margin-top:100px;
-}
-
-.section7_main_page {
-    width: 1140px;
-    height: 708px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.section7_title {
-    width: 635px;
-    height: 116px;
-}
-
-.section7_title_title {
-    width: 635px;
-    height: 56px;
-    font-size:38px;
-    text-align:center;
-    color:white;
-}
-
-.section7_title_text {
-    width: 635px;
-    height: 54px;
-    margin-top: 5px;
-    text-align:center;
-font-size:24px;
-color:#ffffffb3;
-}
-
-.section7_page {
-    width: 1140px;
-    height: 494px;
-    display: flex;
-}
-
-.section7_page_location {
-    width: 380px;
-    height: 494px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.section7_page_location_image {
-    width: 350px;
-    height: 270px;
-    background-color: gray;
-}
-
-.section7_page_location_image :nth-child(0){
-    width: 100%;
-    height:70%;
-}
-
-.section7_page_location_image img{
-    width:100%;
-    height:100%;
-}
-
-.section7_page_location_info {
-    width: 350px;
-    height: 194px;
-    display: flex;
-    flex-direction: column;
-}
-
-.section7_page_location_info_date {
-    width: 350px;
-    height: 27px;
-    margin-top: 27px;
-    color:#ffffffb3;
-}
-
-.section7_page_location_info_title {
-    width: 350px;
-    height: 25px;
-    margin-top: 15px;
-    color:#ffffffb3;
-}
-
-.section7_page_location_info_text {
-    width: 350px;
-    height: 120px;
-    margin-top: 13px;
-    color:#ffffffb3;
-}
-
-/* section_8 */
-
-.section_8 {
-    width: 100%;
-    height: 605px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.section8_image_page {
-    width: 50%;
-    height: 540px;
-}
-
-.section8_image_page img{
-    width:100%;
-    height:100%;
-}
-
-.section8_title_page {
-    width: 50%;
-    height: 540px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.section8_title_list {
-    width: 658px;
-    height: 256px;
-}
-
-.section8_title_list_title {
-    width: 658px;
-    height: 39px;
-    color:white;
-    font-size: 24px;
-}
-
-.section8_title_list_first_name {
-    width: 658px;
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.section8_title_list_first_name_list {
-    width: 302px;
-    height: 58px;
-    color:white;
-}
-
-.section8_title_list_date {
-    width: 658px;
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-    color:white;
-}
-
-.section8_title_list_date_list {
-    width: 193px;
-    height: 58px;
-}
-
-.section8_title_list_massage {
-    width: 658px;
-    height: 69px;
-    display: flex;
-    justify-content: space-between;
-    color:white;
-}
-
-.section8_title_list_massage_list {
-    width: 302px;
-    height: 53px;
-}
+    /* reservation page */
+
+    #reservation_page {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider_sub {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .slide_sub_location {
+        width: 33%;
+        height: 84px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .slider_sub_icon {
+        display: none;
+    }
+
+    .slider_sub_icon img {
+        width: 40px;
+        height: 30px;
+
+    }
+
+
+    .slide_sub_title {
+        width: 90%;
+        height: auto;
+        color: white;
+        font-size: 13px;
+    }
+
+    .slide_sub_text {
+        width: 90%;
+        height: 54px;
+        color: #ffffffb3;
+        font-size: 10px;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .slider_reservation {
+        width: 100%;
+        height: auto;
+        background-color: #F2D6A5;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .slider_reservation_layout {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider_reservation_layout_title {
+        width: 90%;
+        height: auto;
+    }
+
+    .slider_reservation_layout_location1 {
+        width: 618px;
+        height: 74px;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slider_reservation_layout_location1_item {
+        width: 297px;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .slider_reservation_layout_location1_item input {
+        width: auto;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .slider_reservation_layout_location2 {
+        width: 618px;
+        height: 74px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slider_reservation_layout_location2_item {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider_reservation_layout_location2_item input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .slider_reservation_layout_location3 {
+        width: 100%;
+        height: auto;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .slider_reservation_layout_location3_item {
+        width: 100%;
+        height: 60px;
+    }
+
+    .slider_reservation_layout_location3_item button {
+        width: 100%;
+        height: 53px;
+        background-color: white;
+        border: none;
+        letter-spacing: 2px;
+    }
+
+    .slider_reservation_layout_location3_item button:hover {
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* section_1 */
+
+    .section_1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1_image_page {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1_image_page img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section1_text_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .section1_text_page_title {
+        width: 100%;
+        height: auto;
+        background-color: #454545;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 90%;
+    }
+
+    .section1_text_page_title_title {
+        width: 90%;
+        height: auto;
+        font-size: 28px;
+        color: white;
+    }
+
+    .section1_text_page_title_title_title {
+        width: 100%;
+        height: auto;
+        font-family: 'Tangerine';
+        font-size: 50px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .section1_text_page_title_title_headline {
+        width: 100%;
+        height: auto;
+        margin-top: -6px;
+    }
+
+    .section1_text_page_title_text {
+        width: 100%;
+        height: auto;
+        margin-top: 37px;
+        color: #ffffffb3;
+        font-size: 12px;
+    }
+
+    /* section_2 */
+
+    .section_2 {
+        width: 100%;
+        height: auto;
+        background-color: #f2D6A4;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section2_main_group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .section2_main_group_location {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .section2_main_group_icon {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #454545;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section2_main_group_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section2_main_group_text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #454545;
+        margin-top: 20px;
+    }
+
+    .section2_main_group_text_name {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .section2_main_group_text_text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    /* section_3 */
+
+    .section_3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3_main_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3_text_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .section3_text_page_headline {
+        width: 100%;
+        height: auto;
+        font-size: 60px;
+        color: #f2D6A4;
+        font-family: 'Tangerine';
+        text-align: center;
+    }
+
+    .section3_text_page_title {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        color: #ffffffb3;
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .section3_text_page_text {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        font-size: 16px;
+        color: white;
+        line-height: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section3_text_page_button {
+        width: 100%;
+        height: 53px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section3_text_page_button button {
+        width: 150px;
+        border: 2px solid #F2D6A5;
+        font-size: 16px;
+        color: #F2D6A5;
+        background-color: transparent;
+    }
+
+    .section3_text_page_button button:hover {
+        background-color: #F2D6A5;
+        color: #454545;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .section3_capture_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section3_capture_page_layout1 {
+        width: 50%;
+        height: auto;
+        display: flex;
+    }
+
+    .section3_capture_page_layout2 {
+        width: 50%;
+        height: auto;
+        display: flex;
+
+    }
+
+    .section3_capture_page_layout3 {
+        width: 50%;
+        height: auto;
+        display: flex;
+    }
+
+    .section3_capture_page_layout4 {
+        width: 50%;
+        height: auto;
+        display: flex;
+    }
+
+    .section3_capture_page_layout_caption {
+        width: 242px;
+        height: 208px;
+        background-color: white;
+    }
+
+    .section3_capture_page_layout_caption img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section_4 */
+
+    .section_4 {
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .section_4::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .section_4>img {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+    .section4_main_layout {
+        width: 33.3%;
+        height: auto;
+    }
+
+    .section4_main_page_icon {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #f2D6A4;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section4_main_page_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section4_main_page_number {
+        width: 100%;
+        height: 43px;
+        margin-top: 21px;
+        text-align: center;
+        font-size: 34px;
+        color: #f2D6A4
+    }
+
+    .section4_main_page_text {
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+
+    /* section_5 */
+
+    .section_5 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .section5_title {
+        width: 100%;
+        height: auto;
+    }
+
+    .section5_title_headline {
+        width: 100%;
+        height: auto;
+        font-family: 'Tangerine';
+        font-size: 80px;
+        color: #f2D6A4;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .section5_title_title {
+        width: 100%;
+        height: auto;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .section5_title_text {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        color: #ffffffb3;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .person_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+
+
+    .person_list {
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+
+    .person_list_image {
+        width: 180px;
+        height: 200px;
+        background-color: #3a3a3a;
+    }
+
+    .person_list_image:hover {
+        background-color: #f2D6A4;
+        transition: 0.5s;
+
+    }
+
+    .person_list_image img {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .person_list_head {
+        width: 200px;
+        height: 42.35px;
+        margin-top: 12px;
+        font-size: 30px;
+        color: white;
+
+    }
+
+    .person_list_job {
+        width: 200px;
+        height: 16.61px;
+        color: #ffffffb3;
+    }
+
+    .person_list_link {
+        width: 200px;
+        height: 25.1px;
+        margin-top: 11px;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .person_list_link a {
+        color: #f2D6A4;
+        text-decoration: none;
+    }
+
+    .person_list_link a:hover {
+        color: #c1ab84;
+        cursor: pointer;
+    }
+
+    .person_list_link a:active {
+        color: #c1ab84;
+    }
+
+
+    .person_slide_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .person_slide_picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .person_slide_picture img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    /* section_6 */
+
+    .section_6 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 110px;
+    }
+
+    .section_6 img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .section6_title_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section6_title_page_headline {
+        width: 100%;
+        height: auto;
+        font-family: 'Tangerine';
+        font-size: 60px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+
+    .section6_title_page_title {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .section6_title_page_text {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+        color: #ffffffb3;
+    }
+
+    .section6_community {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section6_community_list {
+        width: 100%;
+        height: auto;
+        background-color: #f2D6A4;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .section6_community_list:nth-child(even) {
+        background-color: #c1ab84
+    }
+
+    .section6_community_list_user {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section6_community_list_user_text {
+        width: 100%;
+        height: 100px;
+        color: #3a3a3a;
+        font-family: 'Sejong hospital Light';
+        font-size: 15px;
+    }
+
+    .section6_community_list_user_sub {
+        width: 100%;
+        height: auto;
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    .section6_community_list_user_sub_cap {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+
+    .section6_community_list_user_sub_cap img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    .section6_community_list_user_sub_text {
+        width: 110px;
+        height: 48px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section6_community_list_user_sub_text_name {
+        width: 160px;
+        height: 22px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .section6_community_list_user_sub_text_name_sub {
+        width: 110px;
+        height: 22px;
+        font-size: 14px;
+        color: #ffffffb3
+    }
+
+
+    /* section_7 */
+
+
+    .section_7 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #454545;
+        margin-top: 100px;
+    }
+
+    .section7_main_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section7_title {
+        width: 100%;
+        height: auto;
+    }
+
+    .section7_title_title {
+        width: 100%;
+        height: auto;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+    }
+
+    .section7_title_text {
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 24px;
+        color: #ffffffb3;
+    }
+
+    .section7_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section7_page_location {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section7_page_location_image {
+        width: 80%;
+        height: 270px;
+        background-color: gray;
+    }
+
+    .section7_page_location_image :nth-child(0) {
+        width: 100%;
+        height: 70%;
+    }
+
+    .section7_page_location_image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section7_page_location_info {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section7_page_location_info_date {
+        width: 100%;
+        height: auto;
+        margin-top: 27px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_title {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_text {
+        width: 100%;
+        height: auto;
+        margin-top: 13px;
+        color: #ffffffb3;
+    }
+
+    /* section_8 */
+
+    .section_8 {
+        width: 100%;
+        height: 605px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_image_page {
+        width: 50%;
+        height: 540px;
+    }
+
+    .section8_image_page img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section8_title_page {
+        width: 50%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_title_list {
+        width: 658px;
+        height: 256px;
+    }
+
+    .section8_title_list_title {
+        width: 658px;
+        height: 39px;
+        color: white;
+        font-size: 24px;
+    }
+
+    .section8_title_list_first_name {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section8_title_list_first_name_list {
+        width: 302px;
+        height: 58px;
+        color: white;
+    }
+
+    .section8_title_list_date {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_date_list {
+        width: 193px;
+        height: 58px;
+    }
+
+    .section8_title_list_massage {
+        width: 658px;
+        height: 69px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_massage_list {
+        width: 302px;
+        height: 53px;
+    }
 
 }
 
@@ -1037,238 +1065,258 @@ color:#ffffffb3;
 
 /* 슬라이더 */
 
-@media screen and (min-width:599px){
- 
-#slider {
-    width: 100%;
-    height: 785px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-}
+@media screen and (min-width:599px) {
 
-#slider img{
-    width:100%;
-    height:100%;
-    position:relative;
-    opacity:60%;
-}
+    #slider {
+        width: 100%;
+        height: 785px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
 
-.slider_title {
-    width: 766px;
-    height: 500px;
-    margin: 110px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-position: absolute;
-}
+    #slider img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        opacity: 60%;
+    }
 
-.slider_pagenation {
-    width: 176px;
-    height: 40px;
-    position: absolute;
-    bottom: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
+    .slider_title {
+        width: 766px;
+        height: 500px;
+        margin: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
 
-.slider_pagenation_button{
-    width:40px;
-    height:40px;
-    background-color:white;
-    border-radius: 100%;
-}
+    .slider_pagenation {
+        width: 176px;
+        height: 40px;
+        position: absolute;
+        bottom: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.slider_title_main {
-    width: 728px;
-    height: 263px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px;
-}
+    .slider_pagenation_button {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+    }
 
-.slider_title_first {
-    width: 230px;
-    height: 38px;
-    font-family: 'Tangerine';
-    font-size: 70px;
-    color:#f2D6A4;
-    font-weight: bold;
-}
+    .slider_title_main {
+        width: 728px;
+        height: 263px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
 
-.slider_title_headline {
-    width: 728px;
-    height: 120px;
-    margin-top: 16px;
-    font-size: 64px;
-    text-align: center;
-    color:white;
-    text-justify:auto;
+    .slider_title_first {
+        width: 230px;
+        height: 38px;
+        font-family: 'Tangerine';
+        font-size: 70px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
 
-    
-}
+    .slider_title_headline {
+        width: 728px;
+        height: 120px;
+        margin-top: 16px;
+        font-size: 64px;
+        text-align: center;
+        color: white;
+        text-justify: auto;
 
-.slider_title_text {
-    width: 728px;
-    height: 53px;
-    margin-top: 38px;
-    font-size: 18px;
-    text-align: center;
-    color:white;
-    font-family: 'Sejong hospital Light';
-}
 
-.slider_title_button {
-    width: 255px;
-    height: 54px;
-    margin-top: 36px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    }
 
-.slider_title_button button{
+    .slider_title_text {
+        width: 728px;
+        height: 53px;
+        margin-top: 38px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .slider_title_button {
+        width: 255px;
+        height: 54px;
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider_title_button button {
         width: 118px;
-    height: 53px;
-    background-color: #F2D6A5;
-color:#454545;
-border:none;
-}
+        height: 53px;
+        background-color: #F2D6A5;
+        color: #454545;
+        border: none;
+    }
 
-    .slider_title_button button:hover{
+    .slider_title_button button:hover {
         background-color: transparent;
-        color:#F2D6A5;
-        border:none;
+        color: #F2D6A5;
+        border: none;
         cursor: pointer;
         transition: 0.5s;
         border: 1px solid #F2D6A5;
     }
-    .slider_title_button button:nth-last-child(1){
+
+    .slider_title_button button:nth-last-child(1) {
         background-color: transparent;
-        color:white;
-        border:1px solid white;
+        color: white;
+        border: 1px solid white;
     }
-    .slider_title_button button:nth-last-child(1):hover{
+
+    .slider_title_button button:nth-last-child(1):hover {
         background-color: #F2D6A5;
-        color:#454545;
-        border:none;
+        color: #454545;
+        border: none;
         cursor: pointer;
         transition: 0.5s;
-        
+
     }
-/* reservation page */
 
-#reservation_page {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position:relative;
-}
+    /* reservation page */
 
-.slider_sub {
-    width: 913px;
-    height: 84px;
-    margin-left: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
+    #reservation_page {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
 
-.slide_sub_location {
-    width: 264px;
-    height: 84px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
+    .slider_sub {
+        width: 913px;
+        height: 84px;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 
-.slider_sub_icon {
-    width: 40px;
-    height: 84px;
-}
+    .slide_sub_location {
+        width: 264px;
+        height: 84px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 
-.slider_sub_icon img{
-width:40px;
-height:30px;
+    .slider_sub_icon {
+        width: 40px;
+        height: 84px;
+    }
 
-}
+    .slider_sub_icon img {
+        width: 40px;
+        height: 30px;
+
+    }
 
 
-.slide_sub_title {
-    width: 264px;
-    height: 22px;
-    color: white;
-font-size: 18px;
-}
+    .slide_sub_title {
+        width: 264px;
+        height: 22px;
+        color: white;
+        font-size: 18px;
+    }
 
-.slide_sub_text {
-    width: 264px;
-    height: 54px;
-    color:#ffffffb3;
-font-size:14px;
-font-family: 'Sejong hospital Light';
-}
+    .slide_sub_text {
+        width: 264px;
+        height: 54px;
+        color: #ffffffb3;
+        font-size: 14px;
+        font-family: 'Sejong hospital Light';
+    }
 
-.slider_reservation {
-    width: 666px;
-    height: 296px;
-    background-color: #F2D6A5;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
+    .slider_reservation {
+        width: 666px;
+        height: 296px;
+        background-color: #F2D6A5;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
 
-.slider_reservation_layout {
-    width: 618px;
-    height: 239px;
-}
+    .slider_reservation_layout {
+        width: 618px;
+        height: 239px;
+    }
 
-.slider_reservation_layout_title {
-    width: 618px;
-    height: 22px;
-}
+    .slider_reservation_layout_title {
+        width: 618px;
+        height: 22px;
+    }
 
-.slider_reservation_layout_location1 {
-    width: 618px;
-    height: 74px;
-    background-color: #F2D6A5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .slider_reservation_layout_location1 {
+        width: 618px;
+        height: 74px;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.slider_reservation_layout_location1_item {
-    width: 297px;
-    height: 58px;
+    .slider_reservation_layout_location1_item {
+        width: 297px;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
 
-}
+    }
 
-.slider_reservation_layout_location2 {
-    width: 618px;
-    height: 74px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .slider_reservation_layout_location1_item input {
+        width: auto;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
 
-.slider_reservation_layout_location2_item {
-    width: 190px;
-    height: 58px;
+    .slider_reservation_layout_location2 {
+        width: 618px;
+        height: 74px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-}
+    .slider_reservation_layout_location2_item {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider_reservation_layout_location2_item input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+
 
 .slider_reservation_layout_location3 {
     width: 618px;
@@ -1284,19 +1332,19 @@ font-family: 'Sejong hospital Light';
     height: 53px;
 }
 
-.slider_reservation_layout_location3_item button{
+.slider_reservation_layout_location3_item button {
     width: 297px;
     height: 53px;
-    background-color:white;
-    border:none;
+    background-color: white;
+    border: none;
     letter-spacing: 2px;
 }
 
-.slider_reservation_layout_location3_item button:hover{
-    transition:0.5s;
-    background-color:black;
-    color:white;
-    cursor:pointer;
+.slider_reservation_layout_location3_item button:hover {
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 /* section_1 */
@@ -1314,9 +1362,9 @@ font-family: 'Sejong hospital Light';
     background-size: cover;
 }
 
-.section1_image_page img{
-    width:100%;
-    height:100%;
+.section1_image_page img {
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -1345,26 +1393,30 @@ font-family: 'Sejong hospital Light';
     width: 679px;
     height: 85px;
     font-size: 40px;
-    color:white;
+    color: white;
 }
 
-.section1_text_page_title_title_title{width:679px; height:50px;
+.section1_text_page_title_title_title {
+    width: 679px;
+    height: 50px;
     font-family: 'Tangerine';
     font-size: 60px;
-    color:#f2D6A4;
-    font-weight: bold;}
+    color: #f2D6A4;
+    font-weight: bold;
+}
 
-.section1_text_page_title_title_headline{
-    width:679px; height:56px;
-    margin-top:-6px;
+.section1_text_page_title_title_headline {
+    width: 679px;
+    height: 56px;
+    margin-top: -6px;
 }
 
 .section1_text_page_title_text {
     width: 679px;
     height: 162px;
     margin-top: 37px;
-    color:#ffffffb3;
-    font-size:18px;
+    color: #ffffffb3;
+    font-size: 18px;
 }
 
 /* section_2 */
@@ -1398,31 +1450,42 @@ font-family: 'Sejong hospital Light';
 .section2_main_group_icon {
     width: 100px;
     height: 100px;
-border: 3px solid #454545;
-display:flex; justify-content:center; align-content:center;
-align-items:center;
+    border: 3px solid #454545;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.section2_main_group_icon img{
-    width:80%;
-    height:80%;
+.section2_main_group_icon img {
+    width: 80%;
+    height: 80%;
 }
 
 .section2_main_group_text {
     width: 350px;
     height: 156px;
     margin-top: 20px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-color:#454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #454545;
 }
-.section2_main_group_text_name{width:350px; height:35px;
- text-align:center;
-font-size:20px;}
-.section2_main_group_text_text{width:350px; height:81px;
- text-align:center;
-font-size:14px; margin-top: 8px;}
+
+.section2_main_group_text_name {
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section2_main_group_text_text {
+    width: 350px;
+    height: 81px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+}
 
 
 /* section_3 */
@@ -1432,7 +1495,7 @@ font-size:14px; margin-top: 8px;}
     height: 508px;
     display: flex;
     justify-content: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .section3_main_page {
@@ -1455,24 +1518,24 @@ font-size:14px; margin-top: 8px;}
     width: 507px;
     height: 50px;
     font-size: 80px;
-    color:#f2D6A4;
+    color: #f2D6A4;
     font-family: 'Tangerine';
 }
 
 .section3_text_page_title {
     width: 507px;
     height: 56px;
-font-size: 42px;
-color:#ffffffb3;
+    font-size: 42px;
+    color: #ffffffb3;
 }
 
 .section3_text_page_text {
     width: 507px;
     height: 108px;
     margin-top: 13px;
-    text-align:end;
+    text-align: end;
     font-size: 20px;
-    color:white;
+    color: white;
     line-height: 30px;
 }
 
@@ -1480,23 +1543,23 @@ color:#ffffffb3;
     width: 507px;
     height: 53px;
     margin-top: 15px;
-    display:flex;
-    justify-content:end;
+    display: flex;
+    justify-content: end;
     margin-top: 20px;
 }
 
-.section3_text_page_button button{
+.section3_text_page_button button {
     width: 150px;
-    border:2px solid #F2D6A5;
+    border: 2px solid #F2D6A5;
     font-size: 16px;
-color: #F2D6A5;
-background-color: transparent;
+    color: #F2D6A5;
+    background-color: transparent;
 }
 
-.section3_text_page_button button:hover{
-    background-color:#F2D6A5;
-    color:#454545;
-    transition:0.5s;
+.section3_text_page_button button:hover {
+    background-color: #F2D6A5;
+    color: #454545;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -1543,9 +1606,10 @@ background-color: transparent;
     height: 208px;
     background-color: white;
 }
-.section3_capture_page_layout_caption img{
-    width:100%;
-    height:100%;
+
+.section3_capture_page_layout_caption img {
+    width: 100%;
+    height: 100%;
 }
 
 /* section_4 */
@@ -1554,23 +1618,31 @@ background-color: transparent;
     width: 100%;
     height: 389px;
     margin-top: 100px;
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.section_4::after{content: '';
-position:absolute; top:0; left:0;
-width:100%; height:100%; background-color: black;
-opacity: 0.5; z-index:-1}
-
-.section_4> img{
-    width:100%;
-    height:100%;
+.section_4::after {
+    content: '';
     position: absolute;
-    top:0; left: 0;
-    z-index:-2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1
+}
+
+.section_4>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
 }
 
 .section4_main_layout {
@@ -1595,31 +1667,31 @@ opacity: 0.5; z-index:-1}
     height: 80px;
     border: 3px solid #f2D6A4;
     display: flex;
-    align-content:center;
-    justify-content:center;
-    align-items:center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.section4_main_page_icon img{
-    width:80%;
-    height:80%;
+.section4_main_page_icon img {
+    width: 80%;
+    height: 80%;
 }
 
 .section4_main_page_number {
     width: 200px;
     height: 43px;
     margin-top: 21px;
-    text-align:center;
-    font-size:34px;
-    color:#f2D6A4
+    text-align: center;
+    font-size: 34px;
+    color: #f2D6A4
 }
 
 .section4_main_page_text {
     width: 116px;
     height: 25px;
-    text-align:center;
-font-size: 19px;
-color:white;
+    text-align: center;
+    font-size: 19px;
+    color: white;
 }
 
 /* section_5 */
@@ -1630,7 +1702,7 @@ color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px ;
+    margin-top: 200px;
 }
 
 .section5_title {
@@ -1643,7 +1715,7 @@ color:white;
     height: 50px;
     font-family: 'Tangerine';
     font-size: 80px;
-    color:#f2D6A4;
+    color: #f2D6A4;
     font-weight: bold;
 }
 
@@ -1651,7 +1723,7 @@ color:white;
     width: 1140px;
     height: 56px;
     margin-top: 13px;
-    font-size:38px;
+    font-size: 38px;
     color: white;
     margin-top: -0.1px;
 }
@@ -1660,8 +1732,8 @@ color:white;
     width: 1140px;
     height: 54px;
     margin-top: 15px;
-    font-size:20px;
-    color:#ffffffb3;
+    font-size: 20px;
+    color: #ffffffb3;
 }
 
 .person_page {
@@ -1686,17 +1758,18 @@ color:white;
 .person_list_image {
     width: 180px;
     height: 200px;
-    background-color:#3a3a3a;
+    background-color: #3a3a3a;
 }
 
-.person_list_image:hover{background-color:#f2D6A4;
+.person_list_image:hover {
+    background-color: #f2D6A4;
     transition: 0.5s;
 
-    }
+}
 
-.person_list_image img{
-width: 100%;
-height: 100%;
+.person_list_image img {
+    width: 100%;
+    height: 100%;
 
 
 }
@@ -1706,7 +1779,7 @@ height: 100%;
     height: 42.35px;
     margin-top: 12px;
     font-size: 30px;
-    color:white;
+    color: white;
 
 }
 
@@ -1723,17 +1796,17 @@ height: 100%;
     font-family: 'Sejong hospital Light';
 }
 
-.person_list_link a{
-color: #f2D6A4;
-text-decoration: none;
+.person_list_link a {
+    color: #f2D6A4;
+    text-decoration: none;
 }
 
-.person_list_link a:hover{
+.person_list_link a:hover {
     color: #c1ab84;
     cursor: pointer;
 }
 
-.person_list_link a:active{
+.person_list_link a:active {
     color: #c1ab84;
 }
 
@@ -1751,10 +1824,10 @@ text-decoration: none;
     height: 300px;
 }
 
-.person_slide_picture img{
-    width:100%;
-    height:100%;
-    position:relative;
+.person_slide_picture img {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 /* section_6 */
@@ -1767,13 +1840,13 @@ text-decoration: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 110px ;
+    margin-top: 110px;
 }
 
-.section_6 img{
-    width:100%;
-    height:60%;
-    position:absolute;
+.section_6 img {
+    width: 100%;
+    height: 60%;
+    position: absolute;
 }
 
 .section6_title_page {
@@ -1782,7 +1855,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 .section6_title_page_headline {
@@ -1790,10 +1863,10 @@ text-decoration: none;
     height: 50px;
     font-family: 'Tangerine';
     font-size: 80px;
-    color:#f2D6A4;
+    color: #f2D6A4;
     font-weight: bold;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 60px;
 }
 
@@ -1802,26 +1875,26 @@ text-decoration: none;
     width: 636px;
     height: 56px;
     margin-top: 7px;
-    font-size:38px;
-    text-align:center;
-    color:white;
+    font-size: 38px;
+    text-align: center;
+    color: white;
 }
 
 .section6_title_page_text {
     width: 636px;
     height: 54px;
     margin-top: 4px;
-    font-size:20px;
-    text-align:center;
-    color:#ffffffb3;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffffb3;
 }
 
 .section6_community {
     width: 100%;
     height: 389px;
     display: flex;
-    position:relative;
-    align-items:end;
+    position: relative;
+    align-items: end;
 }
 
 .section6_community_list {
@@ -1832,24 +1905,27 @@ text-decoration: none;
     align-items: flex-end;
 }
 
-.section6_community_list:nth-child(even){
-    background-color:#c1ab84
+.section6_community_list:nth-child(even) {
+    background-color: #c1ab84
 }
 
-.section6_community_list:nth-child(1){
+.section6_community_list:nth-child(1) {
     height: 50%;
 }
 
-.section6_community_list:nth-child(2){
+.section6_community_list:nth-child(2) {
     height: 80%;
 }
-.section6_community_list:nth-child(3){
+
+.section6_community_list:nth-child(3) {
     height: 60%;
 }
-.section6_community_list:nth-child(4){
+
+.section6_community_list:nth-child(4) {
     height: 70%;
 }
-.section6_community_list:nth-child(5){
+
+.section6_community_list:nth-child(5) {
     height: 80%;
 }
 
@@ -1866,10 +1942,10 @@ text-decoration: none;
 .section6_community_list_user_text {
     width: 320px;
     height: 100px;
-    color:#3a3a3a;
-    font-family:  'Sejong hospital Light';
+    color: #3a3a3a;
+    font-family: 'Sejong hospital Light';
     font-size: 16px;
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .section6_community_list_user_sub {
@@ -1888,26 +1964,34 @@ margin-bottom: 5px;
     margin-left: 10px;
 }
 
-.section6_community_list_user_sub_cap img{
-width:40px; height:40px;
-border-radius: 100%;
+.section6_community_list_user_sub_cap img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
 }
 
 .section6_community_list_user_sub_text {
     width: 110px;
     height: 48px;
     margin-left: 10px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.section6_community_list_user_sub_text_name{width:160px; height:22px;
-font-size:16px;
-color: white;
+.section6_community_list_user_sub_text_name {
+    width: 160px;
+    height: 22px;
+    font-size: 16px;
+    color: white;
 }
-.section6_community_list_user_sub_text_name_sub{width:110px; height:22px;
- font-size:14px; color:#ffffffb3}
+
+.section6_community_list_user_sub_text_name_sub {
+    width: 110px;
+    height: 22px;
+    font-size: 14px;
+    color: #ffffffb3
+}
 
 
 /* section_7 */
@@ -1918,9 +2002,9 @@ color: white;
     height: 770px;
     display: flex;
     justify-content: center;
-    position:relative;
-    background-color:#454545;
-    margin-top:100px;
+    position: relative;
+    background-color: #454545;
+    margin-top: 100px;
 }
 
 .section7_main_page {
@@ -1940,18 +2024,18 @@ color: white;
 .section7_title_title {
     width: 635px;
     height: 56px;
-    font-size:38px;
-    text-align:center;
-    color:white;
+    font-size: 38px;
+    text-align: center;
+    color: white;
 }
 
 .section7_title_text {
     width: 635px;
     height: 54px;
     margin-top: 5px;
-    text-align:center;
-font-size:24px;
-color:#ffffffb3;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffffb3;
 }
 
 .section7_page {
@@ -1975,14 +2059,14 @@ color:#ffffffb3;
     background-color: gray;
 }
 
-.section7_page_location_image :nth-child(0){
+.section7_page_location_image :nth-child(0) {
     width: 100%;
-    height:70%;
+    height: 70%;
 }
 
-.section7_page_location_image img{
-    width:100%;
-    height:100%;
+.section7_page_location_image img {
+    width: 100%;
+    height: 100%;
 }
 
 .section7_page_location_info {
@@ -1996,21 +2080,21 @@ color:#ffffffb3;
     width: 350px;
     height: 27px;
     margin-top: 27px;
-    color:#ffffffb3;
+    color: #ffffffb3;
 }
 
 .section7_page_location_info_title {
     width: 350px;
     height: 25px;
     margin-top: 15px;
-    color:#ffffffb3;
+    color: #ffffffb3;
 }
 
 .section7_page_location_info_text {
     width: 350px;
     height: 120px;
     margin-top: 13px;
-    color:#ffffffb3;
+    color: #ffffffb3;
 }
 
 /* section_8 */
@@ -2028,9 +2112,9 @@ color:#ffffffb3;
     height: 540px;
 }
 
-.section8_image_page img{
-    width:100%;
-    height:100%;
+.section8_image_page img {
+    width: 100%;
+    height: 100%;
 }
 
 .section8_title_page {
@@ -2050,7 +2134,7 @@ color:#ffffffb3;
 .section8_title_list_title {
     width: 658px;
     height: 39px;
-    color:white;
+    color: white;
     font-size: 24px;
 }
 
@@ -2064,7 +2148,7 @@ color:#ffffffb3;
 .section8_title_list_first_name_list {
     width: 302px;
     height: 58px;
-    color:white;
+    color: white;
 }
 
 .section8_title_list_date {
@@ -2072,7 +2156,7 @@ color:#ffffffb3;
     height: 74px;
     display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
 }
 
 .section8_title_list_date_list {
@@ -2085,7 +2169,7 @@ color:#ffffffb3;
     height: 69px;
     display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
 }
 
 .section8_title_list_massage_list {

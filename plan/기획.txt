@@ -14,6 +14,10 @@ https://kss.kahp.or.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1120
 
 지도 / 블로그 참고
 
+건강포/힐스포
+
+(health<혹은 건강> + info
+
 section
 1TMI 페이지
 2 운동 페이지 
