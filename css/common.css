@@ -85,59 +85,58 @@ display:none;
 
 footer {
     width: 100%;
-    height: 711px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    height: auto;
+    margin-top: 50px;
 }
 
 .footer_main {
-    width: 1140px;
-    height: 487px;
+    width: 100%;;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .footer_page {
-    width: 1140px;
-    height: 394px;
+    width: 100%;
+    height: auto;
     display: flex;
+    flex-direction:column;
 }
 
 .footer_page_about_us {
-    width: 285px;
-    height: 394px;
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-direction:column;
+    padding:15px;
 }
 
 .footer_page_about_us_title {
-    width: 225px;
-    height: 206px;
+    width: 100%;
+    height: auto;
 }
 
 .footer_page_about_us_title_name {
-    width: 225px;
-    height: 22px;
+    width: 100%;
+    height: auto;
     color: white;
+    font-size:40px;
 }
 
 .footer_page_about_us_title_text {
-    width: 225px;
-    height: 143px;
+    width: 100%;
+    height: auto;
     margin-top: 23px;
     color: #ffffffb3;
     font-family:  'Sejong hospital Light';;
+font-size:16px;
+margin-top:30px;
 }
 
 .footer_page_about_us_sns {
-    width: 189px;
+    width: 230px;
     height: 60px;
-    margin-top: 31px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -145,8 +144,8 @@ footer {
 }
 
 .footer_page_about_us_sns_item {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
 }
 
@@ -156,21 +155,23 @@ footer {
 }
 
 .footer_page_resent_blog {
-    width: 380px;
-    height: 394px;
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
+    margin-top:30px;
+    padding:15px;
 }
 
 .footer_page_resent_blog_main {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .footer_page_resent_blog_main_name {
-    width: 350px;
-    height: 22px;
+    width: 100%;
+    height: auto;
     color: white;
+    font-size:40px;
 }
 
 .footer_page_resent_blog_main_location {
@@ -232,68 +233,77 @@ footer {
 }
 
 .footer_page_service {
-    width: 190px;
-    height: 394px;
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
+    padding:15px;
 }
 
 .footer_page_service_main {
-    width: 136px;
-    height: 242px;
+    width: 100%;
+    height: auto;
     color: white;
 }
 
 .footer_page_service_main_name {
     width: 136px;
     height: 22px;
-    margin-bottom: 21px;
+    margin-bottom: 60px;
+    font-size:40px;
 }
 
 .footer_page_service_main_list {
-    width: 136px;
-    height: 45px;
+    width: 100%;
+    height: 30px;
     color: #ffffffb3;
-    margin-bottom: 4px;
+    font-size:20px;
+}
+
+.footer_page_service_main_list:hover{
+    color:white;
+    cursor:pointer;
+    transition:0.5s;
 }
 
 .footer_page_have_a_questions {
-    width: 285px;
-    height: 394px;
+    width: 100%;
+    height: auto;
 }
 
 .footer_page_have_a_questions_main {
-    width: 285px;
-    height: 346px;
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
+padding:15px;
 }
 
 .footer_page_have_a_questions_sub {
-    width: 255px;
-    height: 242px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .footer_page_have_a_questions_sub_name {
-    width: 255px;
-    height: 22px;
+    width: 100%;
+    height: auto;
     color: white;
+    font-size:40px;
 }
 
 .footer_page_have_a_questions_sub_info {
-    width: 255px;
-    height: 180px;
+    width: 100%;
+    height: auto;
+    margin-top:30px;
 }
 
 .footer_page_have_a_questions_sub_info_list1 {
     width: 255px;
     height: 72px;
-    ;
     margin-bottom: 12px;
     display: flex;
+    font-size: 16px;
 }
 
 .footer_page_have_a_questions_sub_info_list1_image {
@@ -310,7 +320,7 @@ footer {
     width: 215px;
     height: 72px;
     color: #ffffffb3;
-    margin-left: 8px;
+    margin-left: 30px;
     font-family:  'Sejong hospital Light';
 }
 
@@ -328,8 +338,8 @@ footer {
 }
 
 .footer_page_have_a_questions_sub_info_list2_image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 
 .footer_page_have_a_questions_sub_info_list2_text {
@@ -342,12 +352,14 @@ footer {
 }
 
 .footer_col {
-    width: 1140px;
-    height: 45px;
+    width: 80%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffffb3;
+    text-align:center;
+    margin:0 auto;
 }
     
 }
