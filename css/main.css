@@ -1149,9 +1149,11 @@ margin-top: 30px;
 
 
 
+
+
 /* 슬라이더 */
 
-@media screen and (min-width:599px) {
+@media screen and (min-width:600px) {
 
     #slider {
         width: 100%;
