@@ -4,6 +4,7 @@
 
 @media screen and (max-width:599px) {
 
+
     #slider {
         width: 100%;
         height: auto;
@@ -38,7 +39,22 @@
     }
 
     .slider_pagenation_button {
-        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background:transparent;
+        border: 3px solid white ;
+        position: relative;
+        outline:none;
+    }
+    .slider_pagenation_button span{
+        width:30px;
+        height:30px;
+        background-color:white;
+        position: absolute;
+        border-radius: 50%;
+        left:6%;
+        top:6%;
     }
 
     .slider_title_main {
@@ -135,12 +151,12 @@
     }
 
 
-    .slider_sub_layer{
-width:100%;
-height:auto;
-display:flex;
-flex-direction:row;
-padding:20px;
+    .slider_sub_layer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
     }
 
     .slide_sub_location {
@@ -152,8 +168,8 @@ padding:20px;
     }
 
     .slider_sub_icon {
-width:50px;
-height:50px;
+        width: 50px;
+        height: 50px;
 
     }
 
@@ -169,7 +185,7 @@ height:50px;
         height: auto;
         color: white;
         font-size: 20px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
 
     .slide_sub_text {
@@ -189,16 +205,16 @@ height:50px;
     .slider_reservation_layout {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
     }
 
     .slider_reservation_layout_title {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
-        padding:20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 
     .slider_reservation_layout_location1 {
@@ -225,7 +241,7 @@ height:50px;
     }
 
     .slider_reservation_layout_location2 {
-        width:100%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -235,14 +251,14 @@ height:50px;
     .slider_reservation_layout_location2_item {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
-        padding:20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 
     .slider_reservation_layout_location2_item input {
-        width:100%;
-        height:40px;
+        width: 100%;
+        height: 40px;
         background-color: transparent;
         border: none;
         border-bottom: 1px solid white;
@@ -259,16 +275,16 @@ height:50px;
     .slider_reservation_layout_location3_item {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
-        padding:20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 
-    .slider_reservation_layout_location3_item textarea{
-        width:100%;
-        height:40px;
+    .slider_reservation_layout_location3_item textarea {
+        width: 100%;
+        height: 40px;
         border: none;
-        border-bottom:1px solid white;
+        border-bottom: 1px solid white;
         background-color: transparent;
     }
 
@@ -279,7 +295,7 @@ height:50px;
         border: none;
         font-family: 'SejonghospitalBold';
         margin-top: 30px;
-        color:black;
+        color: black;
     }
 
     .slider_reservation_layout_location3_item input:hover {
@@ -780,7 +796,6 @@ height:50px;
     .section_6 img {
         width: 100%;
         height: auto;
-        position: absolute;
     }
 
     .section6_title_page {
@@ -789,7 +804,6 @@ height:50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .section6_title_page_headline {
@@ -927,6 +941,7 @@ height:50px;
     .section7_title {
         width: 100%;
         height: auto;
+        margin-bottom: 50px;
     }
 
     .section7_title_title {
@@ -982,12 +997,12 @@ height:50px;
         height: auto;
         display: flex;
         flex-direction: column;
+        padding: 30px;
     }
 
     .section7_page_location_info_date {
         width: 100%;
         height: auto;
-        margin-top: 27px;
         color: #ffffffb3;
     }
 
@@ -1011,7 +1026,8 @@ height:50px;
         width: 100%;
         height: auto;
         display: flex;
-flex-direction:column;
+        flex-direction: column;
+        margin-top: 100px;
     }
 
     .section8_image_page {
@@ -1027,14 +1043,14 @@ flex-direction:column;
     .section8_title_page {
         width: 100%;
         height: auto;
-background-color:#f2D6A4
+        background-color: #f2D6A4
     }
 
     .section8_title_list {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
     }
 
     .section8_title_list_title {
@@ -1042,61 +1058,61 @@ background-color:#f2D6A4
         height: auto;
         color: white;
         font-size: 24px;
-        display:flex;
-        flex-direction:column;
-        padding:20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 
     .section8_title_list_first_name {
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .section8_title_list_first_name_list {
         width: 100%;
         height: auto;
         color: white;
-        display:flex;
-        flex-direction:column;
-        align-items:flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 20px;
     }
 
-    .section8_title_list_first_name_list input{
-        width:100%;
-        height:40px;
-        border:none;
-        border-bottom:1px solid white;
-        background-color:transparent;
-        
+    .section8_title_list_first_name_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
     }
 
     .section8_title_list_date {
         width: 100%;
         height: auto;
         display: flex;
-flex-direction:column;
+        flex-direction: column;
         color: white;
     }
 
     .section8_title_list_date_list {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
-        align-items:flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 20px;
     }
 
-    .section8_title_list_date_list input{
-        width:100%;
-        height:40px;
-        border:none;
-        border-bottom:1px solid white;
-        background-color:transparent;
-        
+    .section8_title_list_date_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
     }
 
     .section8_title_list_massage {
@@ -1104,56 +1120,1265 @@ flex-direction:column;
         height: auto;
         display: flex;
         color: white;
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .section8_title_list_massage_list {
         width: 100%;
         height: auto;
-        display:flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section8_title_list_massage_list textarea {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
+    }
+
+    .section8_title_list_massage_button {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section8_title_list_massage_button input {
+        width: 100%;
+        height: 53px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'SejonghospitalBold';
+        margin-top: 30px;
+    }
+
+    .section8_title_list_massage_button input:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+}
+
+
+@media screen and (min-width:600px) {
+
+    #slider {
+        width: 100%;
+        height: 785px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #slider img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        opacity: 60%;
+        overflow: hidden;
+    }
+
+    .slider_title {
+        width: 100%;
+        height: auto;
+        margin: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+
+    .slider_pagenation {
+        width: 176px;
+        height: 40px;
+        position: absolute;
+        bottom: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slider_pagenation_button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background:transparent;
+        border: 3px solid white ;
+        position: relative;
+        outline:none;
+    }
+    .slider_pagenation_button span{
+        width:30px;
+        height:30px;
+        background-color:white;
+        position: absolute;
+        border-radius: 50%;
+        left:6%;
+        top:6%;
+    }
+
+    .slider_title_main {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider_title_first {
+        width: 230px;
+        height: 38px;
+        font-family: 'Tangerine';
+        font-size: 70px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .slider_title_headline {
+        width: 728px;
+        height: 120px;
+        margin-top: 16px;
+        font-size: 64px;
+        text-align: center;
+        color: white;
+        text-justify: auto;
+
+
+    }
+
+    .slider_title_text {
+        width: 728px;
+        height: 53px;
+        margin-top: 38px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .slider_title_button {
+        width: 255px;
+        height: 54px;
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider_title_button button {
+        width: 118px;
+        height: 53px;
+        background-color: #F2D6A5;
+        color: #454545;
+        border: none;
+    }
+
+    .slider_title_button button:hover {
+        background-color: transparent;
+        color: #F2D6A5;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s;
+        border: 1px solid #F2D6A5;
+    }
+
+    .slider_title_button button:nth-last-child(1) {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .slider_title_button button:nth-last-child(1):hover {
+        background-color: #F2D6A5;
+        color: #454545;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s;
+
+    }
+
+    /* reservation page */
+
+    #reservation_page {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction:row;
+
+    }
+
+    .slider_sub {
+        width: 75%;
+        height: 300px;
+                display: flex;
+                flex-direction:row;
+                justify-content:space-between;
+    }
+
+    .slider_sub_layer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .slide_sub_location {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .slider_sub_icon {
+        width: 40px;
+        height: 84px;
+    }
+
+    .slider_sub_icon img {
+        width: 40px;
+        height: 30px;
+
+    }
+
+
+    .slide_sub_title {
+        width: 75%;
+        height: 80px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .slide_sub_text {
+        width: 75%;
+        height: auto;
+        color: #ffffffb3;
+        font-size: 14px;
+        font-family: 'Sejong hospital Light';
+margin-top:10px;
+    }
+
+    .slider_reservation {
+        width: 25%;
+        height: 300px;
+        background-color: #F2D6A5;
+        display: flex;
+    }
+
+    .slider_reservation_layout {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .slider_reservation_layout_title {
+        width: 100%;
+        height: 22px;
+        font-size: 14px;
+    }
+
+    .slider_reservation_layout_location1 {
+        width: 100%;
+        height: 74px;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    .slider_reservation_layout_location1_item {
+        width: 50%;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .slider_reservation_layout_location1_item input {
+        width: 90%;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        font-size: 12px;
+    }
+
+    .slider_reservation_layout_location2 {
+        width: 100%;
+        height: 74px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slider_reservation_layout_location2_item {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider_reservation_layout_location2_item input {
+        width: 90%;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+
+    }
+
+
+
+    .slider_reservation_layout_location3 {
+        width: 100%;
+        height: 69px;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .slider_reservation_layout_location3_item {
+        width: 100%;
+        height: 53px;
+    }
+
+    .slider_reservation_layout_location3_item textarea {
+        width: 100%;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .slider_reservation_layout_location3_item input {
+        width: 100%;
+        height: 53px;
+        background-color: white;
+        border: none;
+        letter-spacing: 2px;
+    }
+
+    .slider_reservation_layout_location3_item input:hover {
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    #modalwrap{width:100vw; height: 100vh; background-color:rgba(0,0,0,0.5); position:fixed;
+    top:0; left:0;z-index:10; display:none;
+    }
+
+    .modal{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width: 500px; height:300px; background-color:white;
+    display: flex; align-items: center; justify-content: space-around;
+    flex-direction:column; 
+    border: 3px solid #f2D6A4;border-radius: 30px;
+    }
+
+    .modal p{font-size:30px; color: #454545;
+    margin-top:50px; letter-spacing: 2px;
+    }
+
+    #reservation_close{width:200px; 
+        border: none;
+        height: 60px;
+    background-color: #3a3a3a;
+    color:white;
+    border-radius: 20px;
+    }
+
+    #reservation_close:hover{
+transition: 0.5s;
+background-color: #f2D6A4;
+color: #3a3a3a;
+cursor: pointer;
+    }
+
+    /* section_1 */
+
+    .section_1 {
+        width: 100%;
+        height: 671px;
+        display: flex;
+    }
+
+    .section1_image_page {
+        width: 50%;
+        height: 671px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section1_image_page img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section1_text_page {
+        width: 50%;
+        height: 671px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section1_text_page_title {
+        width: 759px;
+        height: 367px;
+        background-color: #454545;
+        margin-left: -177px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 90%;
+float: right;
+    }
+
+    .section1_text_page_title_title {
+        width: 100%;;
+        height: 85px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .section1_text_page_title_title_title {
+        width: 679px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 60px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .section1_text_page_title_title_headline {
+        width: 679px;
+        height: 56px;
+        margin-top: -6px;
+    }
+
+    .section1_text_page_title_text {
+        width: 679px;
+        height: 162px;
+        margin-top: 37px;
+        color: #ffffffb3;
+        font-size: 18px;
+    }
+
+    /* section_2 */
+
+    .section_2 {
+        width: 100%;
+        height: 524px;
+        background-color: #f2D6A4;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section2_main_group {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .section2_main_group_location {
+        width: 33.33%;
+        height: 314px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section2_main_group_icon {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #454545;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section2_main_group_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section2_main_group_text {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #454545;
+    }
+
+    .section2_main_group_text_name {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .section2_main_group_text_text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+
+    /* section_3 */
+
+    .section_3 {
+        width: 100%;
+        height: 508px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .section3_main_page {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section3_text_page {
+        width: 50%;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .section3_text_page_headline {
+        width: 100%;
+        height: 50px;
+        font-size: 50px;
+        color: #f2D6A4;
+        font-family: 'Tangerine';
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section3_text_page_title {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        color: #ffffffb3;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section3_text_page_text {
+        width: 100%;
+        height: 108px;
+        margin-top: 13px;
+        text-align: end;
+        font-size: 18px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .section3_text_page_button {
+        width: 100%;
+        height: 53px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .section3_text_page_button button {
+        width: 150px;
+        border: 2px solid #F2D6A5;
+        font-size: 16px;
+        color: #F2D6A5;
+        background-color: transparent;
+    }
+
+    .section3_text_page_button button:hover {
+        background-color: #F2D6A5;
+        color: #454545;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .section3_capture_page {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section3_capture_page_layout1 {
+        width: 40%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section3_capture_page_layout2 {
+        width: 40%;
+        height: 40%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .section3_capture_page_layout3 {
+        width: 40%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .section3_capture_page_layout4 {
+        width: 40%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .section3_capture_page_layout_caption {
+        width: 242px;
+        height: 208px;
+        background-color: white;
+    }
+
+    .section3_capture_page_layout_caption img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section_4 */
+
+    .section_4 {
+        width: 100%;
+        height: 700px;
+        margin-top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_4::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: -1
+    }
+
+    .section_4>img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+    .section4_main_layout {
+        width: 237.5px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .section4_main_page {
+        width: 116px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section4_main_page_icon {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #f2D6A4;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4_main_page_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section4_main_page_number {
+        width: 200px;
+        height: 43px;
+        margin-top: 21px;
+        text-align: center;
+        font-size: 34px;
+        color: #f2D6A4
+    }
+
+    .section4_main_page_text {
+        width: 116px;
+        height: 25px;
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+
+    /* section_5 */
+
+    .section_5 {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    .section5_title {
+        width: 1140px;
+        height: 195px;
+    }
+
+    .section5_title_headline {
+        width: 1140px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 80px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .section5_title_title {
+        width: 1140px;
+        height: 56px;
+        margin-top: 13px;
+        font-size: 38px;
+        color: white;
+        margin-top: -0.1px;
+    }
+
+    .section5_title_text {
+        width: 1140px;
+        height: 54px;
+        margin-top: 15px;
+        font-size: 20px;
+        color: #ffffffb3;
+    }
+
+    .person_page {
+        width: 1140px;
+        height: 715px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+
+
+    .person_list {
+        width: 200px;
+        height: 321px;
+    }
+
+
+
+    .person_list_image {
+        width: 180px;
+        height: 200px;
+        background-color: #3a3a3a;
+    }
+
+    .person_list_image:hover {
+        background-color: #f2D6A4;
+        transition: 0.5s;
+
+    }
+
+    .person_list_image img {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .person_list_head {
+        width: 200px;
+        height: 42.35px;
+        margin-top: 12px;
+        font-size: 30px;
+        color: white;
+
+    }
+
+    .person_list_job {
+        width: 200px;
+        height: 16.61px;
+        color: #ffffffb3;
+    }
+
+    .person_list_link {
+        width: 200px;
+        height: 25.1px;
+        margin-top: 11px;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .person_list_link a {
+        color: #f2D6A4;
+        text-decoration: none;
+    }
+
+    .person_list_link a:hover {
+        color: #c1ab84;
+        cursor: pointer;
+    }
+
+    .person_list_link a:active {
+        color: #c1ab84;
+    }
+
+
+    .person_slide_page {
+        width: 100%;
+        height: 300px;
+        background: gray;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .person_slide_picture {
+        width: 476px;
+        height: 300px;
+    }
+
+    .person_slide_picture img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    /* section_6 */
+
+    .section_6 {
+        width: 100%;
+        height: 626px;
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+    }
+
+    .section_6 img {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+    }
+
+    .section6_title_page {
+        width: 665px;
+        height: 179px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .section6_title_page_headline {
+        width: 636px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 80px;
+        color: #f2D6A4;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+
+    .section6_title_page_title {
+        width: 636px;
+        height: 56px;
+        margin-top: 7px;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+    }
+
+    .section6_title_page_text {
+        width: 636px;
+        height: 54px;
+        margin-top: 4px;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffffb3;
+    }
+
+    .section6_community {
+        width: 100%;
+        height: auto;
+        display: flex;
         flex-direction:column;
     }
 
-    .section8_title_list_massage_list textarea{
-        width:100%;
-        height:40px;
-        border:none;
-        border-bottom:1px solid white;
-        background-color:transparent;
-        
+    .section6_community_list {
+        width: 100%;
+        height: 200px;
+        background-color: #f2D6A4;
+        display: flex;
+        align-items: flex-end;
     }
 
-.section8_title_list_massage_button{
-    width:100%; height:auto;
-display:flex; flex-direction:column;
+    .section6_community_list:nth-child(even) {
+        background-color: #c1ab84
+    }
+
+
+    .section6_community_list_user {
+        width: 384px;
+        height: 215px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section6_community_list_user_text {
+        width: 320px;
+        height: 100px;
+        color: #3a3a3a;
+        font-family: 'Sejong hospital Light';
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .section6_community_list_user_sub {
+        width: 320px;
+        height: 48px;
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    .section6_community_list_user_sub_cap {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+
+    .section6_community_list_user_sub_cap img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    .section6_community_list_user_sub_text {
+        width: 110px;
+        height: 48px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section6_community_list_user_sub_text_name {
+        width: 160px;
+        height: 22px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .section6_community_list_user_sub_text_name_sub {
+        width: 110px;
+        height: 22px;
+        font-size: 14px;
+        color: #ffffffb3
+    }
+
+
+    /* section_7 */
+
+
+    .section_7 {
+        width: 100%;
+        height: 770px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #454545;
+        margin-top: 100px;
+    }
+
+    .section7_main_page {
+        width: 1140px;
+        height: 708px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section7_title {
+        width: 635px;
+        height: 116px;
+    }
+
+    .section7_title_title {
+        width: 635px;
+        height: 56px;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+    }
+
+    .section7_title_text {
+        width: 635px;
+        height: 54px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 24px;
+        color: #ffffffb3;
+    }
+
+    .section7_page {
+        width: 1140px;
+        height: 494px;
+        display: flex;
+    }
+
+    .section7_page_location {
+        width: 380px;
+        height: 494px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section7_page_location_image {
+        width: 350px;
+        height: 270px;
+        background-color: gray;
+    }
+
+    .section7_page_location_image :nth-child(0) {
+        width: 100%;
+        height: 70%;
+    }
+
+    .section7_page_location_image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section7_page_location_info {
+        width: 350px;
+        height: 194px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section7_page_location_info_date {
+        width: 350px;
+        height: 27px;
+        margin-top: 27px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_title {
+        width: 350px;
+        height: 25px;
+        margin-top: 15px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_text {
+        width: 350px;
+        height: 120px;
+        margin-top: 13px;
+        color: #ffffffb3;
+    }
+
+    /* section_8 */
+
+    .section_8 {
+        width: 100%;
+        height: 605px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_image_page {
+        width: 50%;
+        height: 540px;
+    }
+
+    .section8_image_page iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section8_title_page {
+        width: 50%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_title_list {
+        width: 658px;
+        height: 256px;
+    }
+
+    .section8_title_list_title {
+        width: 658px;
+        height: 39px;
+        color: white;
+        font-size: 24px;
+    }
+
+    .section8_title_list_first_name {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section8_title_list_first_name_list {
+        width: 302px;
+        height: 58px;
+        color: white;
+    }
+
+    .section8_title_list_first_name_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
+    }
+
+    .section8_title_list_date {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_date_list {
+        width: 193px;
+        height: 58px;
+    }
+
+    .section8_title_list_date_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
+    }
+
+    .section8_title_list_massage {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_massage_list {
+        width: 302px;
+        height: 58px;
+    }
+
+    .section8_title_list_massage_list textarea {
+        width: 302px;
+        height: 58px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+    }
+
+    .section8_title_list_massage_button {
+        width: 302px;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section8_title_list_massage_button input {
+        width: 302px;
+        height: 58px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'SejonghospitalBold';
+    }
+
+    .section8_title_list_massage_button input:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
 }
-
-.section8_title_list_massage_button input{
-width:100%;
-height: 53px;
-border:none;
-background-color:white;
-color:black;
-font-family: 'SejonghospitalBold';
-margin-top: 30px;
-}
-
-.section8_title_list_massage_button input:hover{
-    background-color:black;
-    color:white;
-    cursor:pointer;
-    transition:0.5s;
-}
-
-}
-
-
-
 
 
 /* 슬라이더 */
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:1024px) {
 
     #slider {
         width: 100%;
@@ -1197,9 +2422,22 @@ margin-top: 30px;
     .slider_pagenation_button {
         width: 40px;
         height: 40px;
-        background-color: white;
-        border-radius: 100%;
+        border-radius: 50%;
+        background:transparent;
+        border: 3px solid white ;
+        position: relative;
+        outline:none;
     }
+    .slider_pagenation_button span{
+        width:30px;
+        height:30px;
+        background-color:white;
+        position: absolute;
+        border-radius: 50%;
+        left:6%;
+        top:6%;
+    }
+
 
     .slider_title_main {
         width: 728px;
@@ -1305,14 +2543,14 @@ margin-top: 30px;
         margin-bottom: 10px;
     }
 
-    .slider_sub_layer{
-width:304px;
-height:84px;
-display:flex;
-align-items: center;
-flex-direction: row;
-align-content: center;
-justify-content: center;
+    .slider_sub_layer {
+        width: 304px;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
     }
 
     .slide_sub_location {
@@ -1407,13 +2645,13 @@ justify-content: center;
     .slider_reservation_layout_location2_item {
         width: 100%;
         height: auto;
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
     }
 
     .slider_reservation_layout_location2_item input {
-        width:90%;
-        height:30px;
+        width: 90%;
+        height: 30px;
         background-color: transparent;
         border: none;
         border-bottom: 1px solid white;
@@ -1422,918 +2660,920 @@ justify-content: center;
 
 
 
-.slider_reservation_layout_location3 {
-    width: 618px;
-    height: 69px;
-    background-color: #F2D6A5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location3_item {
-    width: 297px;
-    height: 53px;
-}
-
-.slider_reservation_layout_location3_item textarea{
-    width: 100%;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-}
-
-.slider_reservation_layout_location3_item input {
-    width: 297px;
-    height: 53px;
-    background-color: white;
-    border: none;
-    letter-spacing: 2px;
-}
-
-.slider_reservation_layout_location3_item input:hover {
-    transition: 0.5s;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-/* section_1 */
-
-.section_1 {
-    width: 100%;
-    height: 671px;
-    display: flex;
-}
-
-.section1_image_page {
-    width: 50%;
-    height: 671px;
-    background-position: center;
-    background-size: cover;
-}
-
-.section1_image_page img {
-    width: 100%;
-    height: 100%;
-
-}
-
-.section1_text_page {
-    width: 50%;
-    height: 671px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.section1_text_page_title {
-    width: 759px;
-    height: 367px;
-    background-color: #454545;
-    margin-left: -177px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 90%;
-}
-
-.section1_text_page_title_title {
-    width: 679px;
-    height: 85px;
-    font-size: 40px;
-    color: white;
-}
-
-.section1_text_page_title_title_title {
-    width: 679px;
-    height: 50px;
-    font-family: 'Tangerine';
-    font-size: 60px;
-    color: #f2D6A4;
-    font-weight: bold;
-}
-
-.section1_text_page_title_title_headline {
-    width: 679px;
-    height: 56px;
-    margin-top: -6px;
-}
-
-.section1_text_page_title_text {
-    width: 679px;
-    height: 162px;
-    margin-top: 37px;
-    color: #ffffffb3;
-    font-size: 18px;
-}
-
-/* section_2 */
-
-.section_2 {
-    width: 100%;
-    height: 524px;
-    background-color: #f2D6A4;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.section2_main_group {
-    width: 1140px;
-    height: 314px;
-    display: flex;
-}
-
-.section2_main_group_location {
-    width: 380px;
-    height: 314px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.section2_main_group_icon {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #454545;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.section2_main_group_icon img {
-    width: 80%;
-    height: 80%;
-}
-
-.section2_main_group_text {
-    width: 350px;
-    height: 156px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #454545;
-}
-
-.section2_main_group_text_name {
-    width: 350px;
-    height: 35px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.section2_main_group_text_text {
-    width: 350px;
-    height: 81px;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 8px;
-}
-
-
-/* section_3 */
-
-.section_3 {
-    width: 100%;
-    height: 508px;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.section3_main_page {
-    width: 1140px;
-    height: 508px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.section3_text_page {
-    width: 570px;
-    height: 310px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section3_text_page_headline {
-    width: 507px;
-    height: 50px;
-    font-size: 80px;
-    color: #f2D6A4;
-    font-family: 'Tangerine';
-}
-
-.section3_text_page_title {
-    width: 507px;
-    height: 56px;
-    font-size: 42px;
-    color: #ffffffb3;
-}
-
-.section3_text_page_text {
-    width: 507px;
-    height: 108px;
-    margin-top: 13px;
-    text-align: end;
-    font-size: 20px;
-    color: white;
-    line-height: 30px;
-}
-
-.section3_text_page_button {
-    width: 507px;
-    height: 53px;
-    margin-top: 15px;
-    display: flex;
-    justify-content: end;
-    margin-top: 20px;
-}
-
-.section3_text_page_button button {
-    width: 150px;
-    border: 2px solid #F2D6A5;
-    font-size: 16px;
-    color: #F2D6A5;
-    background-color: transparent;
-}
-
-.section3_text_page_button button:hover {
-    background-color: #F2D6A5;
-    color: #454545;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.section3_capture_page {
-    width: 570px;
-    height: 508px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section3_capture_page_layout1 {
-    width: 285px;
-    height: 254px;
-    display: flex;
-    justify-content: center;
-}
-
-.section3_capture_page_layout2 {
-    width: 285px;
-    height: 254px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.section3_capture_page_layout3 {
-    width: 285px;
-    height: 254px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.section3_capture_page_layout4 {
-    width: 285px;
-    height: 254px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.section3_capture_page_layout_caption {
-    width: 242px;
-    height: 208px;
-    background-color: white;
-}
-
-.section3_capture_page_layout_caption img {
-    width: 100%;
-    height: 100%;
-}
-
-/* section_4 */
-
-.section_4 {
-    width: 100%;
-    height: 389px;
-    margin-top: 100px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section_4::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1
-}
-
-.section_4>img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -2;
-}
-
-.section4_main_layout {
-    width: 237.5px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.section4_main_page {
-    width: 116px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.section4_main_page_icon {
-    width: 80px;
-    height: 80px;
-    border: 3px solid #f2D6A4;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.section4_main_page_icon img {
-    width: 80%;
-    height: 80%;
-}
-
-.section4_main_page_number {
-    width: 200px;
-    height: 43px;
-    margin-top: 21px;
-    text-align: center;
-    font-size: 34px;
-    color: #f2D6A4
-}
-
-.section4_main_page_text {
-    width: 116px;
-    height: 25px;
-    text-align: center;
-    font-size: 19px;
-    color: white;
-}
-
-/* section_5 */
-
-.section_5 {
-    width: 100%;
-    height: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
-}
-
-.section5_title {
-    width: 1140px;
-    height: 195px;
-}
-
-.section5_title_headline {
-    width: 1140px;
-    height: 50px;
-    font-family: 'Tangerine';
-    font-size: 80px;
-    color: #f2D6A4;
-    font-weight: bold;
-}
-
-.section5_title_title {
-    width: 1140px;
-    height: 56px;
-    margin-top: 13px;
-    font-size: 38px;
-    color: white;
-    margin-top: -0.1px;
-}
-
-.section5_title_text {
-    width: 1140px;
-    height: 54px;
-    margin-top: 15px;
-    font-size: 20px;
-    color: #ffffffb3;
-}
-
-.person_page {
-    width: 1140px;
-    height: 715px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-}
-
-
-
-.person_list {
-    width: 200px;
-    height: 321px;
-}
-
-
-
-.person_list_image {
-    width: 180px;
-    height: 200px;
-    background-color: #3a3a3a;
-}
-
-.person_list_image:hover {
-    background-color: #f2D6A4;
-    transition: 0.5s;
-
-}
-
-.person_list_image img {
-    width: 100%;
-    height: 100%;
-
-
-}
-
-.person_list_head {
-    width: 200px;
-    height: 42.35px;
-    margin-top: 12px;
-    font-size: 30px;
-    color: white;
-
-}
-
-.person_list_job {
-    width: 200px;
-    height: 16.61px;
-    color: #ffffffb3;
-}
-
-.person_list_link {
-    width: 200px;
-    height: 25.1px;
-    margin-top: 11px;
-    font-family: 'Sejong hospital Light';
-}
-
-.person_list_link a {
-    color: #f2D6A4;
-    text-decoration: none;
-}
-
-.person_list_link a:hover {
-    color: #c1ab84;
-    cursor: pointer;
-}
-
-.person_list_link a:active {
-    color: #c1ab84;
-}
-
-
-.person_slide_page {
-    width: 100%;
-    height: 300px;
-    background: gray;
-    display: flex;
-    flex-direction: row;
-}
-
-.person_slide_picture {
-    width: 476px;
-    height: 300px;
-}
-
-.person_slide_picture img {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-/* section_6 */
-
-.section_6 {
-    width: 100%;
-    height: 626px;
-    display: flex;
-    align-content: flex-end;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 110px;
-}
-
-.section_6 img {
-    width: 100%;
-    height: 60%;
-    position: absolute;
-}
-
-.section6_title_page {
-    width: 665px;
-    height: 179px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.section6_title_page_headline {
-    width: 636px;
-    height: 50px;
-    font-family: 'Tangerine';
-    font-size: 80px;
-    color: #f2D6A4;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-
-.section6_title_page_title {
-    width: 636px;
-    height: 56px;
-    margin-top: 7px;
-    font-size: 38px;
-    text-align: center;
-    color: white;
-}
-
-.section6_title_page_text {
-    width: 636px;
-    height: 54px;
-    margin-top: 4px;
-    font-size: 20px;
-    text-align: center;
-    color: #ffffffb3;
-}
-
-.section6_community {
-    width: 100%;
-    height: 389px;
-    display: flex;
-    position: relative;
-    align-items: end;
-}
-
-.section6_community_list {
-    width: 20%;
-    height: 389px;
-    background-color: #f2D6A4;
-    display: flex;
-    align-items: flex-end;
-}
-
-.section6_community_list:nth-child(even) {
-    background-color: #c1ab84
-}
-
-.section6_community_list:nth-child(1) {
-    height: 50%;
-}
-
-.section6_community_list:nth-child(2) {
-    height: 80%;
-}
-
-.section6_community_list:nth-child(3) {
-    height: 60%;
-}
-
-.section6_community_list:nth-child(4) {
-    height: 70%;
-}
-
-.section6_community_list:nth-child(5) {
-    height: 80%;
-}
-
-.section6_community_list_user {
-    width: 384px;
-    height: 215px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.section6_community_list_user_text {
-    width: 320px;
-    height: 100px;
-    color: #3a3a3a;
-    font-family: 'Sejong hospital Light';
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.section6_community_list_user_sub {
-    width: 320px;
-    height: 48px;
-    margin-top: 22px;
-    display: flex;
-    align-items: center;
-}
-
-.section6_community_list_user_sub_cap {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 100%;
-    margin-left: 10px;
-}
-
-.section6_community_list_user_sub_cap img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
-.section6_community_list_user_sub_text {
-    width: 110px;
-    height: 48px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.section6_community_list_user_sub_text_name {
-    width: 160px;
-    height: 22px;
-    font-size: 16px;
-    color: white;
-}
-
-.section6_community_list_user_sub_text_name_sub {
-    width: 110px;
-    height: 22px;
-    font-size: 14px;
-    color: #ffffffb3
-}
-
-
-/* section_7 */
-
-
-.section_7 {
-    width: 100%;
-    height: 770px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    background-color: #454545;
-    margin-top: 100px;
-}
-
-.section7_main_page {
-    width: 1140px;
-    height: 708px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.section7_title {
-    width: 635px;
-    height: 116px;
-}
-
-.section7_title_title {
-    width: 635px;
-    height: 56px;
-    font-size: 38px;
-    text-align: center;
-    color: white;
-}
-
-.section7_title_text {
-    width: 635px;
-    height: 54px;
-    margin-top: 5px;
-    text-align: center;
-    font-size: 24px;
-    color: #ffffffb3;
-}
-
-.section7_page {
-    width: 1140px;
-    height: 494px;
-    display: flex;
-}
-
-.section7_page_location {
-    width: 380px;
-    height: 494px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.section7_page_location_image {
-    width: 350px;
-    height: 270px;
-    background-color: gray;
-}
-
-.section7_page_location_image :nth-child(0) {
-    width: 100%;
-    height: 70%;
-}
-
-.section7_page_location_image img {
-    width: 100%;
-    height: 100%;
-}
-
-.section7_page_location_info {
-    width: 350px;
-    height: 194px;
-    display: flex;
-    flex-direction: column;
-}
-
-.section7_page_location_info_date {
-    width: 350px;
-    height: 27px;
-    margin-top: 27px;
-    color: #ffffffb3;
-}
-
-.section7_page_location_info_title {
-    width: 350px;
-    height: 25px;
-    margin-top: 15px;
-    color: #ffffffb3;
-}
-
-.section7_page_location_info_text {
-    width: 350px;
-    height: 120px;
-    margin-top: 13px;
-    color: #ffffffb3;
-}
-
-/* section_8 */
-
-.section_8 {
-    width: 100%;
-    height: 605px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.section8_image_page {
-    width: 50%;
-    height: 540px;
-}
-
-.section8_image_page iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.section8_title_page {
-    width: 50%;
-    height: 540px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.section8_title_list {
-    width: 658px;
-    height: 256px;
-}
-
-.section8_title_list_title {
-    width: 658px;
-    height: 39px;
-    color: white;
-    font-size: 24px;
-}
-
-.section8_title_list_first_name {
-    width: 658px;
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.section8_title_list_first_name_list {
-    width: 302px;
-    height: 58px;
-    color: white;
-}
-
-.section8_title_list_first_name_list input{
-    width:100%;
-    height:40px;
-    border:none;
-    border-bottom:1px solid white;
-    background-color:transparent;
-    
-}
-
-.section8_title_list_date {
-    width: 658px;
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.section8_title_list_date_list {
-    width: 193px;
-    height: 58px;
-}
-
-.section8_title_list_date_list input{
-    width:100%;
-    height:40px;
-    border:none;
-    border-bottom:1px solid white;
-    background-color:transparent;
-    
-}
-
-.section8_title_list_massage {
-    width: 658px;
-    height: 74px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.section8_title_list_massage_list {
-    width: 302px;
-    height: 58px;
-}
-
-.section8_title_list_massage_list textarea{
-    width:302px;
-    height:58px;
-    border:none;
-    border-bottom:1px solid white;
-    background-color:transparent;
-}
-
-.section8_title_list_massage_button{
-    width:302px; height:58px;
-display:flex; flex-direction:column;
-}
-
-.section8_title_list_massage_button input{
-width:302px;
-height: 58px;
-border:none;
-background-color:white;
-color:black;
-font-family: 'SejonghospitalBold';
-}
-
-.section8_title_list_massage_button input:hover{
-    background-color:black;
-    color:white;
-    cursor:pointer;
-    transition:0.5s;
-}
+    .slider_reservation_layout_location3 {
+        width: 618px;
+        height: 69px;
+        background-color: #F2D6A5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .slider_reservation_layout_location3_item {
+        width: 297px;
+        height: 53px;
+    }
+
+    .slider_reservation_layout_location3_item textarea {
+        width: 100%;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .slider_reservation_layout_location3_item input {
+        width: 297px;
+        height: 53px;
+        background-color: white;
+        border: none;
+        letter-spacing: 2px;
+    }
+
+    .slider_reservation_layout_location3_item input:hover {
+        transition: 0.5s;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* section_1 */
+
+    .section_1 {
+        width: 100%;
+        height: 671px;
+        display: flex;
+    }
+
+    .section1_image_page {
+        width: 50%;
+        height: 671px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section1_image_page img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section1_text_page {
+        width: 50%;
+        height: 671px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section1_text_page_title {
+        width: 759px;
+        height: 367px;
+        background-color: #454545;
+        margin-left: -177px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 90%;
+    }
+
+    .section1_text_page_title_title {
+        width: 679px;
+        height: 85px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .section1_text_page_title_title_title {
+        width: 679px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 60px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .section1_text_page_title_title_headline {
+        width: 679px;
+        height: 56px;
+        margin-top: -6px;
+    }
+
+    .section1_text_page_title_text {
+        width: 679px;
+        height: 162px;
+        margin-top: 37px;
+        color: #ffffffb3;
+        font-size: 18px;
+    }
+
+    /* section_2 */
+
+    .section_2 {
+        width: 100%;
+        height: 524px;
+        background-color: #f2D6A4;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section2_main_group {
+        width: 1140px;
+        height: 314px;
+        display: flex;
+    }
+
+    .section2_main_group_location {
+        width: 380px;
+        height: 314px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section2_main_group_icon {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #454545;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section2_main_group_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section2_main_group_text {
+        width: 350px;
+        height: 156px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #454545;
+    }
+
+    .section2_main_group_text_name {
+        width: 350px;
+        height: 35px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .section2_main_group_text_text {
+        width: 350px;
+        height: 81px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+
+    /* section_3 */
+
+    .section_3 {
+        width: 100%;
+        height: 508px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .section3_main_page {
+        width: 1140px;
+        height: 508px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section3_text_page {
+        width: 570px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3_text_page_headline {
+        width: 507px;
+        height: 50px;
+        font-size: 80px;
+        color: #f2D6A4;
+        font-family: 'Tangerine';
+    }
+
+    .section3_text_page_title {
+        width: 507px;
+        height: 56px;
+        font-size: 42px;
+        color: #ffffffb3;
+    }
+
+    .section3_text_page_text {
+        width: 507px;
+        height: 108px;
+        margin-top: 13px;
+        text-align: end;
+        font-size: 20px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .section3_text_page_button {
+        width: 507px;
+        height: 53px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+    }
+
+    .section3_text_page_button button {
+        width: 150px;
+        border: 2px solid #F2D6A5;
+        font-size: 16px;
+        color: #F2D6A5;
+        background-color: transparent;
+    }
+
+    .section3_text_page_button button:hover {
+        background-color: #F2D6A5;
+        color: #454545;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .section3_capture_page {
+        width: 570px;
+        height: 508px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section3_capture_page_layout1 {
+        width: 285px;
+        height: 254px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section3_capture_page_layout2 {
+        width: 285px;
+        height: 254px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .section3_capture_page_layout3 {
+        width: 285px;
+        height: 254px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .section3_capture_page_layout4 {
+        width: 285px;
+        height: 254px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .section3_capture_page_layout_caption {
+        width: 242px;
+        height: 208px;
+        background-color: white;
+    }
+
+    .section3_capture_page_layout_caption img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section_4 */
+
+    .section_4 {
+        width: 100%;
+        height: 389px;
+        margin-top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_4::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: -1
+    }
+
+    .section_4>img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+    .section4_main_layout {
+        width: 237.5px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .section4_main_page {
+        width: 116px;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section4_main_page_icon {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #f2D6A4;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4_main_page_icon img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section4_main_page_number {
+        width: 200px;
+        height: 43px;
+        margin-top: 21px;
+        text-align: center;
+        font-size: 34px;
+        color: #f2D6A4
+    }
+
+    .section4_main_page_text {
+        width: 116px;
+        height: 25px;
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+
+    /* section_5 */
+
+    .section_5 {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    .section5_title {
+        width: 1140px;
+        height: 195px;
+    }
+
+    .section5_title_headline {
+        width: 1140px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 80px;
+        color: #f2D6A4;
+        font-weight: bold;
+    }
+
+    .section5_title_title {
+        width: 1140px;
+        height: 56px;
+        margin-top: 13px;
+        font-size: 38px;
+        color: white;
+        margin-top: -0.1px;
+    }
+
+    .section5_title_text {
+        width: 1140px;
+        height: 54px;
+        margin-top: 15px;
+        font-size: 20px;
+        color: #ffffffb3;
+    }
+
+    .person_page {
+        width: 1140px;
+        height: 715px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+
+
+    .person_list {
+        width: 200px;
+        height: 321px;
+    }
+
+
+
+    .person_list_image {
+        width: 180px;
+        height: 200px;
+        background-color: #3a3a3a;
+    }
+
+    .person_list_image:hover {
+        background-color: #f2D6A4;
+        transition: 0.5s;
+
+    }
+
+    .person_list_image img {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .person_list_head {
+        width: 200px;
+        height: 42.35px;
+        margin-top: 12px;
+        font-size: 30px;
+        color: white;
+
+    }
+
+    .person_list_job {
+        width: 200px;
+        height: 16.61px;
+        color: #ffffffb3;
+    }
+
+    .person_list_link {
+        width: 200px;
+        height: 25.1px;
+        margin-top: 11px;
+        font-family: 'Sejong hospital Light';
+    }
+
+    .person_list_link a {
+        color: #f2D6A4;
+        text-decoration: none;
+    }
+
+    .person_list_link a:hover {
+        color: #c1ab84;
+        cursor: pointer;
+    }
+
+    .person_list_link a:active {
+        color: #c1ab84;
+    }
+
+
+    .person_slide_page {
+        width: 100%;
+        height: 300px;
+        background: gray;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .person_slide_picture {
+        width: 476px;
+        height: 300px;
+    }
+
+    .person_slide_picture img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    /* section_6 */
+
+    .section_6 {
+        width: 100%;
+        height: 626px;
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+    }
+
+    .section_6 img {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+    }
+
+    .section6_title_page {
+        width: 665px;
+        height: 179px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .section6_title_page_headline {
+        width: 636px;
+        height: 50px;
+        font-family: 'Tangerine';
+        font-size: 80px;
+        color: #f2D6A4;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+
+    .section6_title_page_title {
+        width: 636px;
+        height: 56px;
+        margin-top: 7px;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+    }
+
+    .section6_title_page_text {
+        width: 636px;
+        height: 54px;
+        margin-top: 4px;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffffb3;
+    }
+
+    .section6_community {
+        width: 100%;
+        height: 389px;
+        display: flex;
+        position: relative;
+        align-items: end;
+    }
+
+    .section6_community_list {
+        width: 20%;
+        height: 389px;
+        background-color: #f2D6A4;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .section6_community_list:nth-child(even) {
+        background-color: #c1ab84
+    }
+
+    .section6_community_list:nth-child(1) {
+        height: 50%;
+    }
+
+    .section6_community_list:nth-child(2) {
+        height: 80%;
+    }
+
+    .section6_community_list:nth-child(3) {
+        height: 60%;
+    }
+
+    .section6_community_list:nth-child(4) {
+        height: 70%;
+    }
+
+    .section6_community_list:nth-child(5) {
+        height: 80%;
+    }
+
+    .section6_community_list_user {
+        width: 384px;
+        height: 215px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section6_community_list_user_text {
+        width: 320px;
+        height: 100px;
+        color: #3a3a3a;
+        font-family: 'Sejong hospital Light';
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .section6_community_list_user_sub {
+        width: 320px;
+        height: 48px;
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    .section6_community_list_user_sub_cap {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 10px;
+    }
+
+    .section6_community_list_user_sub_cap img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    .section6_community_list_user_sub_text {
+        width: 110px;
+        height: 48px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section6_community_list_user_sub_text_name {
+        width: 160px;
+        height: 22px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .section6_community_list_user_sub_text_name_sub {
+        width: 110px;
+        height: 22px;
+        font-size: 14px;
+        color: #ffffffb3
+    }
+
+
+    /* section_7 */
+
+
+    .section_7 {
+        width: 100%;
+        height: 770px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-color: #454545;
+        margin-top: 100px;
+    }
+
+    .section7_main_page {
+        width: 1140px;
+        height: 708px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section7_title {
+        width: 635px;
+        height: 116px;
+    }
+
+    .section7_title_title {
+        width: 635px;
+        height: 56px;
+        font-size: 38px;
+        text-align: center;
+        color: white;
+    }
+
+    .section7_title_text {
+        width: 635px;
+        height: 54px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 24px;
+        color: #ffffffb3;
+    }
+
+    .section7_page {
+        width: 1140px;
+        height: 494px;
+        display: flex;
+    }
+
+    .section7_page_location {
+        width: 380px;
+        height: 494px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section7_page_location_image {
+        width: 350px;
+        height: 270px;
+        background-color: gray;
+    }
+
+    .section7_page_location_image :nth-child(0) {
+        width: 100%;
+        height: 70%;
+    }
+
+    .section7_page_location_image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section7_page_location_info {
+        width: 350px;
+        height: 194px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section7_page_location_info_date {
+        width: 350px;
+        height: 27px;
+        margin-top: 27px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_title {
+        width: 350px;
+        height: 25px;
+        margin-top: 15px;
+        color: #ffffffb3;
+    }
+
+    .section7_page_location_info_text {
+        width: 350px;
+        height: 120px;
+        margin-top: 13px;
+        color: #ffffffb3;
+    }
+
+    /* section_8 */
+
+    .section_8 {
+        width: 100%;
+        height: 605px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_image_page {
+        width: 50%;
+        height: 540px;
+    }
+
+    .section8_image_page iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section8_title_page {
+        width: 50%;
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section8_title_list {
+        width: 658px;
+        height: 256px;
+    }
+
+    .section8_title_list_title {
+        width: 658px;
+        height: 39px;
+        color: white;
+        font-size: 24px;
+    }
+
+    .section8_title_list_first_name {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section8_title_list_first_name_list {
+        width: 302px;
+        height: 58px;
+        color: white;
+    }
+
+    .section8_title_list_first_name_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
+    }
+
+    .section8_title_list_date {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_date_list {
+        width: 193px;
+        height: 58px;
+    }
+
+    .section8_title_list_date_list input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+
+    }
+
+    .section8_title_list_massage {
+        width: 658px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .section8_title_list_massage_list {
+        width: 302px;
+        height: 58px;
+    }
+
+    .section8_title_list_massage_list textarea {
+        width: 302px;
+        height: 58px;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+    }
+
+    .section8_title_list_massage_button {
+        width: 302px;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section8_title_list_massage_button input {
+        width: 302px;
+        height: 58px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-family: 'SejonghospitalBold';
+    }
+
+    .section8_title_list_massage_button input:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
 
 }

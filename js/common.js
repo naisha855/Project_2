@@ -1,4 +1,3 @@
-
 $(".nav_bars").click(function(){
     $("nav ul li").slideToggle();
     });
