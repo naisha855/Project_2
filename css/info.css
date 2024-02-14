@@ -4,7 +4,7 @@
 
 #slider {
     width: 100%;
-    height: 785px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -41,294 +41,46 @@
     justify-content: space-between;
 }
 
-.slider_pagenation_button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background:transparent;
-    border: 3px solid white ;
-    position: relative;
-    outline:none;
-}
-.slider_pagenation_button span{
-    width:30px;
-    height:30px;
-    background-color:white;
-    position: absolute;
-    border-radius: 50%;
-    left:6%;
-    top:6%;
-}
-
-.slider_title_main {
-    width: 728px;
-    height: 263px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px;
-}
-
-.slider_title_first {
-    width: 230px;
-    height: 38px;
-    font-family: 'Tangerine';
-    font-size: 70px;
-    color: #f2D6A4;
-    font-weight: bold;
-}
-
-.slider_title_headline {
-    width: 728px;
-    height: 120px;
-    margin-top: 16px;
-    font-size: 64px;
-    text-align: center;
-    color: white;
-    text-justify: auto;
-
-
-}
-
-.slider_title_text {
-    width: 728px;
-    height: 53px;
-    margin-top: 38px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    font-family: 'Sejong hospital Light';
-}
-
-.slider_title_button {
-    width: 255px;
-    height: 54px;
-    margin-top: 36px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.slider_title_button button {
-    width: 118px;
-    height: 53px;
-    background-color: #F2D6A5;
-    color: #454545;
-    border: none;
-}
-
-.slider_title_button button:hover {
-    background-color: transparent;
-    color: #F2D6A5;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    border: 1px solid #F2D6A5;
-}
-
-.slider_title_button button:nth-last-child(1) {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-}
-
-.slider_title_button button:nth-last-child(1):hover {
-    background-color: #F2D6A5;
-    color: #454545;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-
-}
-
-/* reservation page */
-
-#reservation_page {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: relative;
-}
-
-.slider_sub {
-    width: 913px;
-    height: 84px;
-    margin-left: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.slider_sub_layer{
-width:304px;
-height:84px;
-display:flex;
-align-items: center;
-flex-direction: row;
-align-content: center;
-justify-content: center;
-}
-
-.slide_sub_location {
-    width: 264px;
-    height: 84px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: 10px;
-}
-
-.slider_sub_icon {
-    width: 40px;
-    height: 84px;
-}
-
-.slider_sub_icon img {
-    width: 40px;
-    height: 30px;
-
-}
-
-
-.slide_sub_title {
-    width: 250px;
-    height: 22px;
-    color: white;
-    font-size: 18px;
-}
-
-.slide_sub_text {
-    width: 250px;
-    height: 54px;
-    color: #ffffffb3;
-    font-size: 14px;
-    font-family: 'Sejong hospital Light';
-}
-
-.slider_reservation {
-    width: 666px;
-    height: 296px;
-    background-color: #F2D6A5;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.slider_reservation_layout {
-    width: 618px;
-    height: 239px;
-}
-
-.slider_reservation_layout_title {
-    width: 618px;
-    height: 22px;
-}
-
-.slider_reservation_layout_location1 {
-    width: 618px;
-    height: 74px;
-    background-color: #F2D6A5;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location1_item {
-    width: 297px;
-    height: 58px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.slider_reservation_layout_location1_item input {
-    width: 100%;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-}
-
-.slider_reservation_layout_location2 {
-    width: 618px;
-    height: 74px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.slider_reservation_layout_location2_item {
-    width: 100%;
-    height: auto;
-    display:flex;
-    flex-direction:column;
-}
-
-.slider_reservation_layout_location2_item input {
-    width:90%;
-    height:30px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-
-}
-
-
-
-.slider_reservation_layout_location3 {
-width: 618px;
-height: 69px;
-background-color: #F2D6A5;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-
-.slider_reservation_layout_location3_item {
-width: 297px;
-height: 53px;
-}
-
-.slider_reservation_layout_location3_item textarea{
-width: 100%;
-height: 30px;
-background-color: transparent;
-border: none;
-border-bottom: 1px solid white;
-}
-
-.slider_reservation_layout_location3_item input {
-width: 297px;
-height: 53px;
-background-color: white;
-border: none;
-letter-spacing: 2px;
-}
-
-.slider_reservation_layout_location3_item input:hover {
-transition: 0.5s;
-background-color: black;
-color: white;
-cursor: pointer;
-}
+/* info_list */
 
 .info_list{
     width:100%;
-    height:1000px;
+    height:1250px;
     display:flex; 
     justify-content: center;
     align-items:center;
+    flex-direction:column;
 }
 
+.info_list_title{
+    width: 1140px; height:250px;
+    display:flex; flex-direction:column;
+    justify-content: space-around; align-items:center;
+}
+
+.info_list_title_headline{width: 920px; height:76px;
+ text-align:center;
+font-family: 'Tangerine';
+font-size: 70px;
+color: #f2D6A4;
+font-weight: bold;
+margin-bottom: -60px;
+}
+
+.info_list_title_title{width: 920px; height:60px;
+ text-align:center;
+font-size: 32px; color:white;
+}
+
+.info_list_title_text{width: 920px; height:50px;
+ text-align:center;
+font-family: 'Sejong hospital Light';
+font-size:18px; color: #ffffffb3;
+;
+
+}
 .info_list_detail{
     width:1140px; height:916px;
-    background-color:aquamarine;
     display:flex; flex-wrap:wrap;
 }
 
@@ -339,25 +91,68 @@ align-items:center; padding: 40px;}
 
 .info_list_detail_page_title{width:540px; height:34px; }
 
-.info_list_detail_page_title_name{width:160px; height:34px; 
+.info_list_detail_page_title_name{width:230px; height:34px; 
  display:flex; align-items:center; color:white;
-font-size:18px;
+font-size:24px; letter-spacing: 1px;
 }
 
 .info_list_detail_page_list{width: 540px; height: 282px;
-background-color: white; display: flex; flex-direction:column;
+display: flex; flex-direction:column;
 justify-content: space-around;}
 
 .info_list_detail_page_list_number{width: 540px; height: 60px;
-background-color: #f2D6A4;
 display:flex; justify-content: space-between;}
 
-.info_list_detail_page_list_number_image{width:60px; height:60px; 
-background-color:black; border-radius:50%;}
-.info_list_detail_page_list_number_image img{width:100%; height:100%;}
+.info_list_detail_page_list_number_image{width:60px; height:60px;}
+.info_list_detail_page_list_number_image img{width:100%; height:100%;border-radius:50%;}
 .info_list_detail_page_list_number_textpage{width:466px; height:60px; 
-background-color:green; display:flex; flex-direction:column; justify-content: space-between;}
+ display:flex; flex-direction:column; justify-content: space-between;}
 .info_list_detail_page_list_number_textpage_name{width:466px; height:33px;
-background-color:beige;}
+ font-family:'Tangerine'; font-size:22px; color:white;
+ border-bottom:1px dashed #f2D6A4;}
 .info_list_detail_page_list_number_textpage_text{width:466px; height:24px;
-background-color:white;}
+    font-family: 'Sejong hospital Light'; font-size: 14px;
+    color:#ffffffb3;}
+
+    /* Best_page */
+
+    .best_section{width:100%; height:1200px;
+    background-color:white; display:flex; justify-content:center;}
+
+    .best{width:1140px; height:1200px;
+    background-color:gray; display:flex; 
+justify-content: space-between; flex-direction:column;}
+
+    .best_swichi{width:1140px; height:50px;
+    background-color:aquamarine; display:flex;
+justify-content:center;}
+
+    .best_swichi_button{width:120px; height:50px;
+    background-color:beige;}
+
+    .best_list{width:1140px; height:1132px;
+    background-color:aquamarine; display:flex;
+flex-wrap:wrap;}
+
+    .best_list_page{width:380px; height: 566px;
+    background-color:orange;display:flex;
+flex-direction:column; align-items:center;}
+
+    .best_list_page_img {width:380px; height:270px;
+    background-color:white;}
+
+    .best_list_page_name{width:380px;height:45px;
+    background-color:red;
+margin-top:20px;}
+
+    .best_list_page_text{width:380px;height:50px;
+    background-color:yellow;
+margin-top:20px;}
+
+    .best_list_page_sub{width:380px;height:45px;
+    background-color:green;
+margin-top:12px;}
+
+    .best_list_page_button{width:100px;height:40px;
+    background-color:blue;
+margin-top:30px;}
