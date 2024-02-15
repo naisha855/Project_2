@@ -18,3 +18,5 @@ li {
 button{
     font-family: 'SejonghospitalBold';
 }
+
+:hover{cursor: default;}

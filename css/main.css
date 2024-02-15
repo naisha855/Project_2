@@ -1,9 +1,8 @@
 @charset "utf-8";
 
-/* 슬라이더 */
-
 @media screen and (max-width:599px) {
 
+    /* 슬라이더 */
 
     #slider {
         width: 100%;
@@ -39,8 +38,8 @@
     }
 
     .slider_pagenation_button {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background:transparent;
         border: 3px solid white ;
@@ -48,13 +47,13 @@
         outline:none;
     }
     .slider_pagenation_button span{
-        width:30px;
-        height:30px;
+        width:20px;
+        height:20px;
         background-color:white;
         position: absolute;
         border-radius: 50%;
-        left:6%;
-        top:6%;
+        left:10%;
+        top:10%;
     }
 
     .slider_title_main {
@@ -500,6 +499,7 @@
         line-height: 20px;
         justify-content: center;
         text-align: center;
+        font-family: 'Sejong hospital Light';
     }
 
     .section3_text_page_button {
@@ -1165,7 +1165,6 @@
 
 }
 
-
 @media screen and (min-width:600px) {
 
     #slider {
@@ -1209,8 +1208,8 @@
     }
 
     .slider_pagenation_button {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background:transparent;
         border: 3px solid white ;
@@ -1218,13 +1217,13 @@
         outline:none;
     }
     .slider_pagenation_button span{
-        width:30px;
-        height:30px;
+        width:20px;
+        height:20px;
         background-color:white;
         position: absolute;
         border-radius: 50%;
-        left:6%;
-        top:6%;
+        left:10%;
+        top:10%;
     }
 
     .slider_title_main {
@@ -1319,7 +1318,7 @@
 
     .slider_sub {
         width: 75%;
-        height: 300px;
+        height: 100%;
                 display: flex;
                 flex-direction:row;
                 justify-content:space-between;
@@ -1705,6 +1704,7 @@ float: right;
         font-size: 18px;
         color: white;
         line-height: 30px;
+        font-family: 'Sejong hospital Light';
     }
 
     .section3_text_page_button {
@@ -2375,10 +2375,9 @@ float: right;
 
 }
 
-
-/* 슬라이더 */
-
 @media screen and (min-width:1024px) {
+
+    /* 슬라이더 */
 
     #slider {
         width: 100%;
@@ -2420,8 +2419,8 @@ float: right;
     }
 
     .slider_pagenation_button {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background:transparent;
         border: 3px solid white ;
@@ -2429,13 +2428,13 @@ float: right;
         outline:none;
     }
     .slider_pagenation_button span{
-        width:30px;
-        height:30px;
+        width:20px;
+        height:20px;
         background-color:white;
         position: absolute;
         border-radius: 50%;
-        left:6%;
-        top:6%;
+        left:10%;
+        top:10%;
     }
 
 
@@ -2533,19 +2532,18 @@ float: right;
 
     .slider_sub {
         width: 913px;
-        height: 84px;
+        height: 100%;
         margin-left: 40px;
         display: flex;
         align-items: center;
         flex-direction: row;
         align-content: center;
         justify-content: center;
-        margin-bottom: 10px;
     }
 
     .slider_sub_layer {
         width: 304px;
-        height: 84px;
+        height: 100%;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -2555,7 +2553,7 @@ float: right;
 
     .slide_sub_location {
         width: 264px;
-        height: 84px;
+        height: 80px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -2887,6 +2885,7 @@ float: right;
         font-size: 20px;
         color: white;
         line-height: 30px;
+        font-family: 'Sejong hospital Light';
     }
 
     .section3_text_page_button {
