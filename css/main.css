@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:699px) {
 
     /* 슬라이더 */
 
@@ -1165,7 +1165,7 @@
 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
 
     #slider {
         width: 100%;
@@ -1548,7 +1548,6 @@ cursor: pointer;
         align-items: center;
         flex-direction: column;
         opacity: 90%;
-float: right;
     }
 
     .section1_text_page_title_title {
@@ -1574,7 +1573,7 @@ float: right;
     }
 
     .section1_text_page_title_text {
-        width: 679px;
+        width: 100%;
         height: 162px;
         margin-top: 37px;
         color: #ffffffb3;
@@ -1865,7 +1864,7 @@ float: right;
 
     .section_5 {
         width: 100%;
-        height: 1200px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1873,12 +1872,13 @@ float: right;
     }
 
     .section5_title {
-        width: 1140px;
-        height: 195px;
+        width: 100%;
+        height: auto;
+        padding: 10%;
     }
 
     .section5_title_headline {
-        width: 1140px;
+        width: 100%;
         height: 50px;
         font-family: 'Tangerine';
         font-size: 80px;
@@ -1887,7 +1887,7 @@ float: right;
     }
 
     .section5_title_title {
-        width: 1140px;
+        width: 100%;
         height: 56px;
         margin-top: 13px;
         font-size: 38px;
@@ -1896,7 +1896,7 @@ float: right;
     }
 
     .section5_title_text {
-        width: 1140px;
+        width: 100%;
         height: 54px;
         margin-top: 15px;
         font-size: 20px;
@@ -1904,8 +1904,8 @@ float: right;
     }
 
     .person_page {
-        width: 1140px;
-        height: 715px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -1916,10 +1916,25 @@ float: right;
 
 
     .person_list {
-        width: 200px;
-        height: 321px;
+        width: 45%;
+        height: 300px;
+        border: 2px solid #c1ab84;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 40px;
     }
 
+
+    .person_list_txtx_page{
+        width:60%;
+        height:200px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
 
 
     .person_list_image {
@@ -1942,25 +1957,27 @@ float: right;
     }
 
     .person_list_head {
-        width: 200px;
-        height: 42.35px;
+        width: 100%;
+        height: auto;
         margin-top: 12px;
         font-size: 30px;
         color: white;
-
+        text-align:center;
     }
 
     .person_list_job {
-        width: 200px;
+        width: 100%;
         height: 16.61px;
         color: #ffffffb3;
+        text-align:center;
     }
 
     .person_list_link {
-        width: 200px;
+        width: 100%;
         height: 25.1px;
         margin-top: 11px;
         font-family: 'Sejong hospital Light';
+        text-align:center;
     }
 
     .person_list_link a {
@@ -1980,7 +1997,7 @@ float: right;
 
     .person_slide_page {
         width: 100%;
-        height: 300px;
+        height: auto;
         background: gray;
         display: flex;
         flex-direction: row;
@@ -2001,19 +2018,13 @@ float: right;
 
     .section_6 {
         width: 100%;
-        height: 626px;
+        height: auto;
         display: flex;
         align-content: flex-end;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 110px;
-    }
-
-    .section_6 img {
-        width: 100%;
-        height: 60%;
-        position: absolute;
     }
 
     .section6_title_page {
@@ -2056,11 +2067,16 @@ float: right;
         color: #ffffffb3;
     }
 
+    .section_6 img {
+        width: 100%;
+        height: 60%;
+    }
+
+
+
     .section6_community {
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction:column;
     }
 
     .section6_community_list {
@@ -2146,7 +2162,7 @@ float: right;
 
     .section_7 {
         width: 100%;
-        height: 770px;
+        height: auto;
         display: flex;
         justify-content: center;
         position: relative;
@@ -2155,8 +2171,8 @@ float: right;
     }
 
     .section7_main_page {
-        width: 1140px;
-        height: 708px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2164,7 +2180,7 @@ float: right;
     }
 
     .section7_title {
-        width: 635px;
+        width: 100%;
         height: 116px;
     }
 
@@ -2186,13 +2202,14 @@ float: right;
     }
 
     .section7_page {
-        width: 1140px;
-        height: 494px;
+        width: 100%;
+        height: auto;
         display: flex;
+        justify-content: space-around;
     }
 
     .section7_page_location {
-        width: 380px;
+        width: 30%;
         height: 494px;
         display: flex;
         flex-direction: column;
@@ -2201,8 +2218,8 @@ float: right;
     }
 
     .section7_page_location_image {
-        width: 350px;
-        height: 270px;
+        width: 100%;
+        height: auto;
         background-color: gray;
     }
 
@@ -2217,41 +2234,45 @@ float: right;
     }
 
     .section7_page_location_info {
-        width: 350px;
-        height: 194px;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
 
     .section7_page_location_info_date {
-        width: 350px;
+        width: 100%;
         height: 27px;
         margin-top: 27px;
         color: #ffffffb3;
+        text-align:center;
     }
 
     .section7_page_location_info_title {
-        width: 350px;
+        width: 100%;
         height: 25px;
         margin-top: 15px;
         color: #ffffffb3;
+        text-align:center;
     }
 
     .section7_page_location_info_text {
-        width: 350px;
+        width: 100%;
         height: 120px;
         margin-top: 13px;
         color: #ffffffb3;
+        text-align:center;
     }
 
     /* section_8 */
 
     .section_8 {
         width: 100%;
-        height: 605px;
+        height: auto;
         display: flex;
         align-content: center;
         align-items: center;
+        margin-top:100px;
     }
 
     .section8_image_page {
@@ -2267,33 +2288,31 @@ float: right;
     .section8_title_page {
         width: 50%;
         height: 540px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+        padding:20px;
+        display:flex;
     }
 
     .section8_title_list {
-        width: 658px;
+        width: 100%;
         height: 256px;
     }
 
     .section8_title_list_title {
-        width: 658px;
+        width: 100%;
         height: 39px;
         color: white;
         font-size: 24px;
     }
 
     .section8_title_list_first_name {
-        width: 658px;
-        height: 74px;
+        width: 100%;
+        height: auto;
         display: flex;
-        justify-content: space-between;
+        flex-direction:column;
     }
 
     .section8_title_list_first_name_list {
-        width: 302px;
+        width: 100%;
         height: 58px;
         color: white;
     }
@@ -2308,15 +2327,15 @@ float: right;
     }
 
     .section8_title_list_date {
-        width: 658px;
-        height: 74px;
+        width: 100%;
+        height: auto;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         color: white;
     }
 
     .section8_title_list_date_list {
-        width: 193px;
+        width: 100%;
         height: 58px;
     }
 
@@ -2330,16 +2349,18 @@ float: right;
     }
 
     .section8_title_list_massage {
-        width: 658px;
-        height: 74px;
+        width: 100%;
+        height: auto;
         display: flex;
-        justify-content: space-between;
+        flex-direction:column;
         color: white;
     }
 
     .section8_title_list_massage_list {
-        width: 302px;
-        height: 58px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
     }
 
     .section8_title_list_massage_list textarea {
@@ -2351,14 +2372,14 @@ float: right;
     }
 
     .section8_title_list_massage_button {
-        width: 302px;
+        width: 100%;
         height: 58px;
         display: flex;
         flex-direction: column;
     }
 
     .section8_title_list_massage_button input {
-        width: 302px;
+        width: 100%;
         height: 58px;
         border: none;
         background-color: white;
@@ -2372,6 +2393,11 @@ float: right;
         cursor: pointer;
         transition: 0.5s;
     }
+
+
+    #modalwrap_2{width:100vw; height: 100vh; background-color:rgba(0,0,0,0.5); position:fixed;
+        top:0; left:0;z-index:10; display:none;
+        }
 
 }
 
@@ -3097,13 +3123,6 @@ float: right;
 
 
 
-    .person_list {
-        width: 200px;
-        height: 321px;
-    }
-
-
-
     .person_list_image {
         width: 180px;
         height: 200px;
@@ -3243,6 +3262,7 @@ float: right;
         height: 389px;
         display: flex;
         position: relative;
+        flex-direction: row;
         align-items: end;
     }
 
@@ -3466,6 +3486,7 @@ float: right;
         height: 100%;
     }
 
+
     .section8_title_page {
         width: 50%;
         height: 540px;
@@ -3473,6 +3494,7 @@ float: right;
         justify-content: center;
         align-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .section8_title_list {
@@ -3491,6 +3513,7 @@ float: right;
         width: 658px;
         height: 74px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -3513,6 +3536,7 @@ float: right;
         width: 658px;
         height: 74px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         color: white;
     }
@@ -3536,6 +3560,7 @@ float: right;
         height: 74px;
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         color: white;
     }
 

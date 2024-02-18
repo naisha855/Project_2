@@ -33,3 +33,12 @@ $(function(){
         $('#modalwrap').fadeOut();
     });
 });
+
+$(function(){
+    $('#reservation_click_2').click(function(){
+        $('#modalwrap_2').fadeIn();
+    });
+    $('#reservation_close_2').click(function(){
+        $('#modalwrap_2').fadeOut();
+    });
+});
