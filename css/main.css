@@ -41,19 +41,20 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background:transparent;
-        border: 3px solid white ;
+        background: transparent;
+        border: 3px solid white;
         position: relative;
-        outline:none;
+        outline: none;
     }
-    .slider_pagenation_button span{
-        width:20px;
-        height:20px;
-        background-color:white;
+
+    .slider_pagenation_button span {
+        width: 20px;
+        height: 20px;
+        background-color: white;
         position: absolute;
         border-radius: 50%;
-        left:10%;
-        top:10%;
+        left: 10%;
+        top: 10%;
     }
 
     .slider_title_main {
@@ -304,6 +305,56 @@
         cursor: pointer;
     }
 
+    #modalwrap {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        border: 3px solid #f2D6A4;
+        border-radius: 30px;
+    }
+
+    .modal p {
+        font-size: 30px;
+        color: #454545;
+        margin-top: 50px;
+        letter-spacing: 2px;
+    }
+
+    #reservation_close {
+        width: 200px;
+        border: none;
+        height: 60px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #reservation_close:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
+    }
+
     /* section_1 */
 
     .section_1 {
@@ -372,7 +423,27 @@
         margin-top: 37px;
         color: #ffffffb3;
         font-size: 12px;
+        display: flex;
+        flex-direction:column;
     }
+
+    .section1_text_page_title_text_main{
+        width:100%;
+        height: auto;
+        font-size: 16px;
+    }
+
+.section1_text_page_title_text_sub_group{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.section1_text_page_title_text_sub{
+width:50%;
+height:auto;
+font-family: 'Sejong hospital Light';
+}
+
 
     /* section_2 */
 
@@ -793,9 +864,15 @@
         margin-top: 110px;
     }
 
-    .section_6 img {
+    .section_6_img{
         width: 100%;
-        height: auto;
+        height: auto; 
+        
+    }
+
+    .section_6_img img {
+        width: 100%;
+        height: auto; 
     }
 
     .section6_title_page {
@@ -804,6 +881,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 1200px;
     }
 
     .section6_title_page_headline {
@@ -813,6 +893,7 @@
         font-size: 60px;
         color: #f2D6A4;
         font-weight: bold;
+        text-align:center;
     }
 
 
@@ -846,6 +927,7 @@
         background-color: #f2D6A4;
         display: flex;
         align-items: flex-end;
+        padding: 20px;
     }
 
     .section6_community_list:nth-child(even) {
@@ -1163,9 +1245,36 @@
         transition: 0.5s;
     }
 
+    #modalwrap_2 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    #reservation_close_2 {
+        width: 200px;
+        border: none;
+        height: 60px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #reservation_close_2:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
+    }
+
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:700px) and (max-width:1023px) {
 
     #slider {
         width: 100%;
@@ -1211,19 +1320,20 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background:transparent;
-        border: 3px solid white ;
+        background: transparent;
+        border: 3px solid white;
         position: relative;
-        outline:none;
+        outline: none;
     }
-    .slider_pagenation_button span{
-        width:20px;
-        height:20px;
-        background-color:white;
+
+    .slider_pagenation_button span {
+        width: 20px;
+        height: 20px;
+        background-color: white;
         position: absolute;
         border-radius: 50%;
-        left:10%;
-        top:10%;
+        left: 10%;
+        top: 10%;
     }
 
     .slider_title_main {
@@ -1312,16 +1422,16 @@
         width: 100%;
         height: 300px;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
 
     }
 
     .slider_sub {
         width: 75%;
         height: 100%;
-                display: flex;
-                flex-direction:row;
-                justify-content:space-between;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .slider_sub_layer {
@@ -1366,7 +1476,7 @@
         color: #ffffffb3;
         font-size: 14px;
         font-family: 'Sejong hospital Light';
-margin-top:10px;
+        margin-top: 10px;
     }
 
     .slider_reservation {
@@ -1478,34 +1588,54 @@ margin-top:10px;
         cursor: pointer;
     }
 
-    #modalwrap{width:100vw; height: 100vh; background-color:rgba(0,0,0,0.5); position:fixed;
-    top:0; left:0;z-index:10; display:none;
+    #modalwrap {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
     }
 
-    .modal{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-    width: 500px; height:300px; background-color:white;
-    display: flex; align-items: center; justify-content: space-around;
-    flex-direction:column; 
-    border: 3px solid #f2D6A4;border-radius: 30px;
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        border: 3px solid #f2D6A4;
+        border-radius: 30px;
     }
 
-    .modal p{font-size:30px; color: #454545;
-    margin-top:50px; letter-spacing: 2px;
+    .modal p {
+        font-size: 30px;
+        color: #454545;
+        margin-top: 50px;
+        letter-spacing: 2px;
     }
 
-    #reservation_close{width:200px; 
+    #reservation_close {
+        width: 200px;
         border: none;
         height: 60px;
-    background-color: #3a3a3a;
-    color:white;
-    border-radius: 20px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
     }
 
-    #reservation_close:hover{
-transition: 0.5s;
-background-color: #f2D6A4;
-color: #3a3a3a;
-cursor: pointer;
+    #reservation_close:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
     }
 
     /* section_1 */
@@ -1548,10 +1678,12 @@ cursor: pointer;
         align-items: center;
         flex-direction: column;
         opacity: 90%;
+        padding: 30px;
     }
 
     .section1_text_page_title_title {
-        width: 100%;;
+        width: 100%;
+        ;
         height: 85px;
         font-size: 40px;
         color: white;
@@ -1572,13 +1704,37 @@ cursor: pointer;
         margin-top: -6px;
     }
 
+
     .section1_text_page_title_text {
         width: 100%;
-        height: 162px;
+        height: auto;
         margin-top: 37px;
         color: #ffffffb3;
-        font-size: 18px;
+        font-size: 12px;
+        display: flex;
+        flex-direction:column;
     }
+
+    .section1_text_page_title_text_main{
+        width:100%;
+        height: auto;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+.section1_text_page_title_text_sub_group{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 8px;
+}
+
+.section1_text_page_title_text_sub{
+width:50%;
+height:auto;
+font-family: 'Sejong hospital Light';
+font-size: 16px;
+margin-top: 5px;
+}
 
     /* section_2 */
 
@@ -1868,7 +2024,6 @@ cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 200px;
     }
 
     .section5_title {
@@ -1919,20 +2074,21 @@ cursor: pointer;
         width: 45%;
         height: 300px;
         border: 2px solid #c1ab84;
-        display:flex;
-        flex-direction:row;
-        align-items:center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
         margin-bottom: 50px;
         padding: 40px;
+        border-radius: 30px;
     }
 
 
-    .person_list_txtx_page{
-        width:60%;
-        height:200px;
-        display:flex;
-        flex-direction:column;
+    .person_list_txtx_page {
+        width: 60%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
         justify-content:center;
     }
 
@@ -1962,22 +2118,22 @@ cursor: pointer;
         margin-top: 12px;
         font-size: 30px;
         color: white;
-        text-align:center;
+        text-align: center;
     }
 
     .person_list_job {
         width: 100%;
-        height: 16.61px;
+        height: auto;
         color: #ffffffb3;
-        text-align:center;
+        text-align: center;
     }
 
     .person_list_link {
         width: 100%;
-        height: 25.1px;
+        height: auto;
         margin-top: 11px;
         font-family: 'Sejong hospital Light';
-        text-align:center;
+        text-align: center;
     }
 
     .person_list_link a {
@@ -2033,7 +2189,8 @@ cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: relative;
+        position: absolute;
+        margin-bottom: 1700px;
     }
 
     .section6_title_page_headline {
@@ -2081,10 +2238,11 @@ cursor: pointer;
 
     .section6_community_list {
         width: 100%;
-        height: 200px;
+        height: auto;
         background-color: #f2D6A4;
         display: flex;
         align-items: flex-end;
+        padding: 30px;
     }
 
     .section6_community_list:nth-child(even) {
@@ -2093,17 +2251,15 @@ cursor: pointer;
 
 
     .section6_community_list_user {
-        width: 384px;
+        width: 100%;
         height: 215px;
         display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .section6_community_list_user_text {
-        width: 320px;
+        width: 100%;
         height: 100px;
         color: #3a3a3a;
         font-family: 'Sejong hospital Light';
@@ -2245,7 +2401,7 @@ cursor: pointer;
         height: 27px;
         margin-top: 27px;
         color: #ffffffb3;
-        text-align:center;
+        text-align: center;
     }
 
     .section7_page_location_info_title {
@@ -2253,7 +2409,7 @@ cursor: pointer;
         height: 25px;
         margin-top: 15px;
         color: #ffffffb3;
-        text-align:center;
+        text-align: center;
     }
 
     .section7_page_location_info_text {
@@ -2261,7 +2417,7 @@ cursor: pointer;
         height: 120px;
         margin-top: 13px;
         color: #ffffffb3;
-        text-align:center;
+        text-align: center;
     }
 
     /* section_8 */
@@ -2272,7 +2428,7 @@ cursor: pointer;
         display: flex;
         align-content: center;
         align-items: center;
-        margin-top:100px;
+        margin-top: 100px;
     }
 
     .section8_image_page {
@@ -2288,8 +2444,8 @@ cursor: pointer;
     .section8_title_page {
         width: 50%;
         height: 540px;
-        padding:20px;
-        display:flex;
+        padding: 20px;
+        display: flex;
     }
 
     .section8_title_list {
@@ -2308,7 +2464,7 @@ cursor: pointer;
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .section8_title_list_first_name_list {
@@ -2352,7 +2508,7 @@ cursor: pointer;
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         color: white;
     }
 
@@ -2395,9 +2551,32 @@ cursor: pointer;
     }
 
 
-    #modalwrap_2{width:100vw; height: 100vh; background-color:rgba(0,0,0,0.5); position:fixed;
-        top:0; left:0;z-index:10; display:none;
-        }
+    #modalwrap_2 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    #reservation_close_2 {
+        width: 200px;
+        border: none;
+        height: 60px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #reservation_close_2:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
+    }
 
 }
 
@@ -2448,19 +2627,20 @@ cursor: pointer;
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background:transparent;
-        border: 3px solid white ;
+        background: transparent;
+        border: 3px solid white;
         position: relative;
-        outline:none;
+        outline: none;
     }
-    .slider_pagenation_button span{
-        width:20px;
-        height:20px;
-        background-color:white;
+
+    .slider_pagenation_button span {
+        width: 20px;
+        height: 20px;
+        background-color: white;
         position: absolute;
         border-radius: 50%;
-        left:10%;
-        top:10%;
+        left: 10%;
+        top: 10%;
     }
 
 
@@ -2721,6 +2901,56 @@ cursor: pointer;
         cursor: pointer;
     }
 
+    #modalwrap {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        border: 3px solid #f2D6A4;
+        border-radius: 30px;
+    }
+
+    .modal p {
+        font-size: 30px;
+        color: #454545;
+        margin-top: 50px;
+        letter-spacing: 2px;
+    }
+
+    #reservation_close {
+        width: 200px;
+        border: none;
+        height: 60px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #reservation_close:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
+    }
+
     /* section_1 */
 
     .section_1 {
@@ -2748,6 +2978,7 @@ cursor: pointer;
         display: flex;
         align-content: center;
         align-items: center;
+        
     }
 
     .section1_text_page_title {
@@ -2761,11 +2992,12 @@ cursor: pointer;
         align-items: center;
         flex-direction: column;
         opacity: 90%;
+        padding: 30px;
     }
 
     .section1_text_page_title_title {
-        width: 679px;
-        height: 85px;
+        width: 100%;
+        height: auto;
         font-size: 40px;
         color: white;
     }
@@ -2786,12 +3018,35 @@ cursor: pointer;
     }
 
     .section1_text_page_title_text {
-        width: 679px;
-        height: 162px;
+        width: 100%;
+        height: auto;
         margin-top: 37px;
         color: #ffffffb3;
-        font-size: 18px;
+        font-size: 12px;
+        display: flex;
+        flex-direction:column;
     }
+
+    .section1_text_page_title_text_main{
+        width:100%;
+        height: auto;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+.section1_text_page_title_text_sub_group{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 8px;
+}
+
+.section1_text_page_title_text_sub{
+width:50%;
+height:auto;
+font-family: 'Sejong hospital Light';
+font-size: 16px;
+margin-top: 5px;
+}
 
     /* section_2 */
 
@@ -3211,10 +3466,15 @@ cursor: pointer;
         margin-top: 110px;
     }
 
-    .section_6 img {
+    .section_6_img {
         width: 100%;
         height: 60%;
         position: absolute;
+    }
+
+    .section_6_img img {
+        width: 100%;
+        height: 60%;
     }
 
     .section6_title_page {
@@ -3224,6 +3484,7 @@ cursor: pointer;
         flex-direction: column;
         align-items: center;
         position: relative;
+        z-index: 1;
     }
 
     .section6_title_page_headline {
@@ -3259,19 +3520,17 @@ cursor: pointer;
 
     .section6_community {
         width: 100%;
-        height: 389px;
         display: flex;
         position: relative;
         flex-direction: row;
-        align-items: end;
+        align-items: flex-end;
     }
 
     .section6_community_list {
         width: 20%;
-        height: 389px;
         background-color: #f2D6A4;
         display: flex;
-        align-items: flex-end;
+        padding: 30px;
     }
 
     .section6_community_list:nth-child(even) {
@@ -3279,37 +3538,37 @@ cursor: pointer;
     }
 
     .section6_community_list:nth-child(1) {
-        height: 50%;
+        height:40%;
     }
 
+
     .section6_community_list:nth-child(2) {
-        height: 80%;
+        height:70%;
     }
 
     .section6_community_list:nth-child(3) {
-        height: 60%;
+        height:60%;
     }
 
     .section6_community_list:nth-child(4) {
-        height: 70%;
+        height:90%;
     }
 
     .section6_community_list:nth-child(5) {
-        height: 80%;
+        height:80%;
     }
 
     .section6_community_list_user {
         width: 384px;
         height: 215px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
         align-items: center;
         flex-direction: column;
     }
 
     .section6_community_list_user_text {
-        width: 320px;
         height: 100px;
         color: #3a3a3a;
         font-family: 'Sejong hospital Light';
@@ -3318,11 +3577,10 @@ cursor: pointer;
     }
 
     .section6_community_list_user_sub {
-        width: 320px;
+        width:100%;
         height: 48px;
         margin-top: 22px;
         display: flex;
-        align-items: center;
     }
 
     .section6_community_list_user_sub_cap {
@@ -3598,6 +3856,33 @@ cursor: pointer;
         color: white;
         cursor: pointer;
         transition: 0.5s;
+    }
+
+    #modalwrap_2 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    #reservation_close_2 {
+        width: 200px;
+        border: none;
+        height: 60px;
+        background-color: #3a3a3a;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #reservation_close_2:hover {
+        transition: 0.5s;
+        background-color: #f2D6A4;
+        color: #3a3a3a;
+        cursor: pointer;
     }
 
 }
