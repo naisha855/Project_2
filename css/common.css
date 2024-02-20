@@ -31,6 +31,10 @@ pre {
     font-family: 'Sejong hospital Light';
 }
 
+.menu a{
+color: white;
+text-decoration-line: none;
+}
 
 @media screen and (max-width:699px) {
 
@@ -411,7 +415,7 @@ pre {
 
 
 
-@media screen and (min-width:700px) and (max-width:1023px) {
+@media screen and (min-width:700px) and (max-width:1156px) {
 
 
         /* 네비게이션 */
@@ -800,7 +804,7 @@ pre {
 
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1157px) {
 
     /* 네비게이션 */
 
@@ -810,6 +814,7 @@ pre {
         border-bottom: 1px solid white;
         position: absolute;
         z-index: 10;
+        
     }
 
     .container {
@@ -893,7 +898,7 @@ pre {
     }
 
     .footer_main {
-        width: 1140px;
+        width: 100%;
         height: 487px;
         display: flex;
         flex-direction: column;
@@ -901,13 +906,14 @@ pre {
     }
 
     .footer_page {
-        width: 1140px;
+        width: 100%;
         height: 394px;
         display: flex;
+        justify-content:center;
     }
 
     .footer_page_about_us {
-        width: 285px;
+        width: 20%;
         height: 394px;
         display: flex;
         flex-direction: column;
@@ -957,7 +963,7 @@ pre {
     }
 
     .footer_page_resent_blog {
-        width: 380px;
+        width: 30%;
         height: 394px;
         display: flex;
         justify-content: center;
@@ -1034,7 +1040,7 @@ pre {
     }
 
     .footer_page_service {
-        width: 190px;
+        width: 20%;
         height: 394px;
         display: flex;
         justify-content: center;
@@ -1060,7 +1066,7 @@ pre {
     }
 
     .footer_page_have_a_questions {
-        width: 285px;
+        width: 20%;
         height: 394px;
     }
 
@@ -1144,7 +1150,7 @@ pre {
     }
 
     .footer_col {
-        width: 1140px;
+        width: 100%;
         height: 45px;
         display: flex;
         align-items: center;

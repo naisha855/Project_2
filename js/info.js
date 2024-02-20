@@ -8,6 +8,6 @@ $(function () {
 
         $('.best_list').eq(idx).fadeIn().css('display', 'flex');
         $('.best_list').eq(idx).siblings('.best_list').hide();
-    })
+    });
 });
 

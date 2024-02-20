@@ -57,6 +57,10 @@
         top: 10%;
     }
 
+    .slider_pagenation_button:first-of-type span{
+        background-color: #f2D6A4;
+    }
+
     .slider_title_main {
         width: 80%;
         height: auto;
@@ -1274,7 +1278,7 @@ font-family: 'Sejong hospital Light';
 
 }
 
-@media screen and (min-width:700px) and (max-width:1023px) {
+@media screen and (min-width:700px) and (max-width:1156px) {
 
     #slider {
         width: 100%;
@@ -1299,7 +1303,7 @@ font-family: 'Sejong hospital Light';
     .slider_title {
         width: 100%;
         height: auto;
-        margin: 110px;
+        margin-top : 110px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1336,6 +1340,10 @@ font-family: 'Sejong hospital Light';
         top: 10%;
     }
 
+    .slider_pagenation_button:first-of-type span{
+        background-color: #f2D6A4;
+    }
+
     .slider_title_main {
         width: 80%;
         height: auto;
@@ -1354,8 +1362,8 @@ font-family: 'Sejong hospital Light';
     }
 
     .slider_title_headline {
-        width: 728px;
-        height: 120px;
+        width: 100%;
+        height: auto;
         margin-top: 16px;
         font-size: 64px;
         text-align: center;
@@ -1366,8 +1374,8 @@ font-family: 'Sejong hospital Light';
     }
 
     .slider_title_text {
-        width: 728px;
-        height: 53px;
+        width: 100%;
+        height: auto;
         margin-top: 38px;
         font-size: 18px;
         text-align: center;
@@ -1651,6 +1659,7 @@ font-family: 'Sejong hospital Light';
         height: 671px;
         background-position: center;
         background-size: cover;
+        position:absolute;
     }
 
     .section1_image_page img {
@@ -1668,10 +1677,9 @@ font-family: 'Sejong hospital Light';
     }
 
     .section1_text_page_title {
-        width: 759px;
+        width: 100%;
         height: 367px;
         background-color: #454545;
-        margin-left: -177px;
         display: flex;
         align-content: center;
         justify-content: center;
@@ -1690,7 +1698,7 @@ font-family: 'Sejong hospital Light';
     }
 
     .section1_text_page_title_title_title {
-        width: 679px;
+        width: 650px;
         height: 50px;
         font-family: 'Tangerine';
         font-size: 60px;
@@ -1699,7 +1707,7 @@ font-family: 'Sejong hospital Light';
     }
 
     .section1_text_page_title_title_headline {
-        width: 679px;
+        width: 650px;
         height: 56px;
         margin-top: -6px;
     }
@@ -2580,7 +2588,7 @@ margin-top: 5px;
 
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1157px) {
 
     /* 슬라이더 */
 
@@ -2643,6 +2651,9 @@ margin-top: 5px;
         top: 10%;
     }
 
+    .slider_pagenation_button:first-of-type span{
+        background-color: #f2D6A4;
+    }
 
     .slider_title_main {
         width: 728px;
@@ -2737,7 +2748,7 @@ margin-top: 5px;
     }
 
     .slider_sub {
-        width: 913px;
+        width: 60%;
         height: 100%;
         margin-left: 40px;
         display: flex;
@@ -2748,7 +2759,7 @@ margin-top: 5px;
     }
 
     .slider_sub_layer {
-        width: 304px;
+        width: 33.33%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -2758,7 +2769,7 @@ margin-top: 5px;
     }
 
     .slide_sub_location {
-        width: 264px;
+        width: 95%;
         height: 80px;
         display: flex;
         justify-content: space-between;
@@ -2779,14 +2790,14 @@ margin-top: 5px;
 
 
     .slide_sub_title {
-        width: 250px;
-        height: 22px;
+        width: 100%;
+        height: auto;
         color: white;
         font-size: 18px;
     }
 
     .slide_sub_text {
-        width: 250px;
+        width: 100%;
         height: 54px;
         color: #ffffffb3;
         font-size: 14px;
@@ -2794,27 +2805,28 @@ margin-top: 5px;
     }
 
     .slider_reservation {
-        width: 666px;
+        width: 35%;
         height: 296px;
         background-color: #F2D6A5;
         display: flex;
         justify-content: center;
-        align-content: center;
         align-items: center;
     }
 
     .slider_reservation_layout {
-        width: 618px;
-        height: 239px;
+        width: 90%;
+        height: 90%;
+        display:flex;
+        flex-direction:column;
     }
 
     .slider_reservation_layout_title {
-        width: 618px;
+        width: 100%;
         height: 22px;
     }
 
     .slider_reservation_layout_location1 {
-        width: 618px;
+        width: 100%;
         height: 74px;
         background-color: #F2D6A5;
         display: flex;
@@ -2823,7 +2835,7 @@ margin-top: 5px;
     }
 
     .slider_reservation_layout_location1_item {
-        width: 297px;
+        width: 50%;
         height: 58px;
         display: flex;
         flex-direction: column;
@@ -2839,7 +2851,7 @@ margin-top: 5px;
     }
 
     .slider_reservation_layout_location2 {
-        width: 618px;
+        width: 100%;
         height: 74px;
         display: flex;
         flex-direction: row;
@@ -2865,7 +2877,7 @@ margin-top: 5px;
 
 
     .slider_reservation_layout_location3 {
-        width: 618px;
+        width: 100%;
         height: 69px;
         background-color: #F2D6A5;
         display: flex;
@@ -3537,30 +3549,9 @@ margin-top: 5px;
         background-color: #c1ab84
     }
 
-    .section6_community_list:nth-child(1) {
-        height:40%;
-    }
-
-
-    .section6_community_list:nth-child(2) {
-        height:70%;
-    }
-
-    .section6_community_list:nth-child(3) {
-        height:60%;
-    }
-
-    .section6_community_list:nth-child(4) {
-        height:90%;
-    }
-
-    .section6_community_list:nth-child(5) {
-        height:80%;
-    }
 
     .section6_community_list_user {
         width: 384px;
-        height: 215px;
         display: flex;
         justify-content: space-between;
         align-content: center;
@@ -3569,7 +3560,6 @@ margin-top: 5px;
     }
 
     .section6_community_list_user_text {
-        height: 100px;
         color: #3a3a3a;
         font-family: 'Sejong hospital Light';
         font-size: 16px;
@@ -3607,10 +3597,10 @@ margin-top: 5px;
     }
 
     .section6_community_list_user_sub_text_name {
-        width: 160px;
         height: 22px;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
+        white-space:nowrap;
     }
 
     .section6_community_list_user_sub_text_name_sub {
@@ -3756,19 +3746,19 @@ margin-top: 5px;
     }
 
     .section8_title_list {
-        width: 658px;
+        width: 100%;
         height: 256px;
     }
 
     .section8_title_list_title {
-        width: 658px;
+        width: 100%;
         height: 39px;
         color: white;
         font-size: 24px;
     }
 
     .section8_title_list_first_name {
-        width: 658px;
+        width: 100%;
         height: 74px;
         display: flex;
         flex-direction: row;
@@ -3776,9 +3766,10 @@ margin-top: 5px;
     }
 
     .section8_title_list_first_name_list {
-        width: 302px;
+        width: 49%;
         height: 58px;
         color: white;
+
     }
 
     .section8_title_list_first_name_list input {
@@ -3791,7 +3782,7 @@ margin-top: 5px;
     }
 
     .section8_title_list_date {
-        width: 658px;
+        width: 100%;
         height: 74px;
         display: flex;
         flex-direction: row;
@@ -3800,7 +3791,7 @@ margin-top: 5px;
     }
 
     .section8_title_list_date_list {
-        width: 193px;
+        width: 32%;
         height: 58px;
     }
 
@@ -3814,7 +3805,7 @@ margin-top: 5px;
     }
 
     .section8_title_list_massage {
-        width: 658px;
+        width: 100%;
         height: 74px;
         display: flex;
         justify-content: space-between;
@@ -3823,12 +3814,12 @@ margin-top: 5px;
     }
 
     .section8_title_list_massage_list {
-        width: 302px;
+        width: 50%;
         height: 58px;
     }
 
     .section8_title_list_massage_list textarea {
-        width: 302px;
+        width: 50%;
         height: 58px;
         border: none;
         border-bottom: 1px solid white;
@@ -3836,14 +3827,14 @@ margin-top: 5px;
     }
 
     .section8_title_list_massage_button {
-        width: 302px;
+        width: 50%;
         height: 58px;
         display: flex;
         flex-direction: column;
     }
 
     .section8_title_list_massage_button input {
-        width: 302px;
+        width: 100%;
         height: 58px;
         border: none;
         background-color: white;
